@@ -1,0 +1,24 @@
+.headerCard{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 12px 45px rgba(40, 157, 210, 0.22);
+    border-radius: 15px;
+    display: flex;
+    width: 73%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header1{
+    /* Rectangle 10 */
+width: 350px;
+height: 285px;
+/* background-image: '../../assets/logo.svg'; */
+background: linear-gradient(180deg, rgba(13, 17, 16, 0) 70.7%, rgba(13, 17, 16, 0.58) 88.49%, rgba(13, 17, 16, 0.78) 97.19%);
+border-radius: 10px;
+}
+
+.header1{
+    margin: 10px;
+}

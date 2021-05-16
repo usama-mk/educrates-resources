@@ -1,0 +1,14 @@
+.header{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #094B35;
+    color: white;
+}
+
+.header__mid{
+    display: flex;
+    width: 33%;
+    justify-content: space-around;
+}
