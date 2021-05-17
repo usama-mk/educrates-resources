@@ -11,7 +11,7 @@ function App() {
       <div className="header__wrapper">
       <Header/>
       <div className="welcome__message">
-        <p>Welcome to</p>
+        <h2>Welcome to</h2>
         <h1>Educrates Resources</h1>
       </div>
 
