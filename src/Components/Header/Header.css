@@ -2,7 +2,7 @@
     /* width: 100vw; */
     
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #094B35;
     color: white;
@@ -12,4 +12,31 @@
     display: flex;
     width: 33%;
     justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
+.header__right{
+    width: 140px;
+    height: 55px;
+    background: #41C1BA;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* font-family: Rubik; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+
+    .pointer{
+        cursor: pointer;
+    }

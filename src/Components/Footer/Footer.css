@@ -3,10 +3,11 @@
     left: 0px;
     top: 4921px;
     background: #094B35;
-   display: flex;
-   justify-content: space-around;
-   align-items: flex-end;
-   padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
 }
 
 .footer__copyright{

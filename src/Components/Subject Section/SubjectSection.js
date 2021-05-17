@@ -7,7 +7,7 @@ function SubjectSection({subject, title, description, tutorName, thumbnail, link
         <div className="subjectSection">
             <div className="subjectSection__header">
                 <h1>{subject}</h1>
-                <div className="seeAll__button">
+                <div className="seeAll__button pointer">
                     SEE ALL &gt;
                 </div>
             </div>

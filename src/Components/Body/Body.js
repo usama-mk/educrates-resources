@@ -8,19 +8,19 @@ function Body() {
         <div className="body" >
 {/* Tab buttons */}
             <div className="body__buttons">
-                <div className="visual__button tab__button__selected">
+                <div className="visual__button tab__button__selected pointer">
                     VISUAL
                 </div>
 
-                <div className="auditory__button tab__button">
+                <div className="auditory__button tab__button pointer">
                     AUDITORY
                 </div>
 
-                <div className="kinesthetic__button tab__button">
+                <div className="kinesthetic__button tab__button pointer">
                     KINESTHETIC
                 </div>
 
-                <div className="reflective__button tab__button">
+                <div className="reflective__button tab__button pointer">
                     REFLECTIVE
                 </div>
             </div>

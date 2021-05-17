@@ -9,25 +9,25 @@ function Header() {
         <img src={logo} alt="logo" />
 
         <div className="header__mid">
-          <div className="header__mid__home">
+          <div className="header__mid__home pointer">
             Home
           </div>
 
-          <div className="header__mid__social">
+          <div className="header__mid__social pointer">
             Social
           </div>
 
-          <div className="header__mid__resources">
+          <div className="header__mid__resources pointer">
             Resources
           </div>
 
-          <div className="header__mid__foundation">
+          <div className="header__mid__foundation pointer">
             Foundation
           </div>
         </div>
 
-        <div className="header__right">
-          SIGN IN
+        <div className="header__right pointer">
+          SIGN IN &gt;
         </div>
 
       </div>
