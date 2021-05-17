@@ -1,6 +1,7 @@
 import './App.css';
 import logo from './assets/logo.svg'
 import Body from './Components/Body/Body';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import HeaderCard from './Components/HeaderCard/HeaderCard';
 
@@ -18,10 +19,12 @@ function App() {
 
       <HeaderCard/>
       </div>
-      {/* app body */}
-      {/* welcome  */}
+      
       {/* tabs body */}
       <Body/>
+
+      {/* footer */}
+      <Footer/>
      </div>
   );
 }
