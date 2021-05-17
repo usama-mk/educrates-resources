@@ -1,0 +1,43 @@
+.subjectSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.subjectSection__header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 75vw;
+    border-bottom: 1px solid #D5D5D5;;
+}
+
+.subjectSection__header> h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #094B35;
+}
+
+.seeAll__button{
+    width: 118px;
+    height: 45px;
+    background: #094B35;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* font-family: Rubik; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

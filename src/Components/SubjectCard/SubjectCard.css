@@ -1,0 +1,117 @@
+.subjectCard{
+    display: flex;
+    /* align-items: center; */
+    min-width: 73vw;
+    /* justify-content: space-between; */
+
+    background: #FFFFFF;
+    box-shadow: 0px 6px 25px rgba(40, 157, 210, 0.15);
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.subjectCard__thumbnail{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.subjectCard__thumbnail>a>img{
+    max-width: 310px;
+    max-height: 318px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+.subjectCard__desc>h2{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 551px;
+    height: 33px;
+    overflow: auto;
+    text-overflow: ellipsis;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #094B35;
+
+}
+.subjectCard__desc{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+.subjectCard__description{
+    display: flex;
+    max-width: 755px;
+    max-height: 81px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #646464;
+}
+.subjectCard__right{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.subjectCard__right__avatar{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#Avatar{
+    display: flex;
+    border: 1.5px solid grey;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 7px 7px #D3D3D3);
+    margin-right: 10px;
+}
+.tutorName{
+    /* font-family: Rubik; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #094B35;
+}
+
+.subjectCard__right__tutor{
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.subjectCard__right__enroll__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #41C1BA;
+    border-radius: 5px;
+    width: 178px;
+    height: 54px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    /* font-family: Rubik; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+}

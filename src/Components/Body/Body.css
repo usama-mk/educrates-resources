@@ -6,5 +6,46 @@
 .body__buttons{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
+}
+.tab__button__selected{
+    width: 200px;
+    height: 60px;
+    background: #41C1BA;
+    box-shadow: 0px 8px 30px rgba(40, 157, 210, 0.3);
+    border-radius: 6px;
+
+    /* font-family: Rubik; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 20px;
+    color: #FFFFFF;
+}
+
+.tab__button{
+    width: 200px;
+    height: 60px;
+    background: #EBEBEB;
+    border-radius: 6px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 20px;
+    color: #094B35;
+
 }
