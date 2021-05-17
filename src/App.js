@@ -1,5 +1,6 @@
 import './App.css';
 import logo from './assets/logo.svg'
+import Body from './Components/Body/Body';
 import Header from './Components/Header/Header';
 import HeaderCard from './Components/HeaderCard/HeaderCard';
 
@@ -20,7 +21,8 @@ function App() {
       {/* app body */}
       {/* welcome  */}
       {/* tabs body */}
-    </div>
+      <Body/>
+     </div>
   );
 }
 

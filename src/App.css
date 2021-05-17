@@ -17,12 +17,12 @@
   content: "";
   position: absolute;
   bottom: 0;
-  right: -5%;
-  left: -5%;
+  right: -7%;
+  left: -7%;
   height: 120px;
   background: #fff;
-  -webkit-clip-path: ellipse(50% 100% at 50% 100%);
-  clip-path: ellipse(50% 100% at 50% 100%);
+  -webkit-clip-path: ellipse(50% 130% at 52% 120%);
+  clip-path: ellipse(50% 130% at 50% 100%);
 }
 .welcome__message{
   color: white;

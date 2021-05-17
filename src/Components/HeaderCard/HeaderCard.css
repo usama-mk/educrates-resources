@@ -9,7 +9,9 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    z-index: 1;
+    z-index: 2;
+    margin-bottom: 70px;
+    top: 40px;
 }
 
 .header1{
