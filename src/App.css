@@ -1,19 +1,18 @@
 .App {
   text-align: center;
-   
-}
-
-.header__wrapper{
-  margin: 0 auto;
-  /* width: 500px;
-  height: 200px; */
-  background: lightblue;
-  position: relative;
-  overflow: hidden;
-  background-color: #094B35;
   
    
 }
+
+
+.header__wrapper{
+  margin: 0 auto;  
+  background: lightblue;
+  position: relative;
+  overflow: hidden;
+  background-color: #094B35;  
+}
+
 .header__wrapper:after {
   content: "";
   position: absolute;
@@ -24,7 +23,7 @@
   background: #fff;
   -webkit-clip-path: ellipse(50% 130% at 52% 120%);
   clip-path: ellipse(50% 130% at 50% 100%);
-}
+} 
 .welcome__message{
   color: white;
   
