@@ -6,7 +6,7 @@ import './SubjectSection.css'
 function SubjectSection({ subject, title, description, tutorName, link }) {
     const [seeAll, setSeeAll] = useState(false)
     const maths = [
-       
+
         {
             category: ["visual", "reflective"],
             year: 2,
@@ -132,7 +132,7 @@ function SubjectSection({ subject, title, description, tutorName, link }) {
             title: "Year 5 Maths Resources",
             description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
         },
-        
+
         {
             category: ["visual", "reflective"],
             year: 6,
@@ -239,7 +239,7 @@ function SubjectSection({ subject, title, description, tutorName, link }) {
             description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
         },
 
-        
+
 
         {
             category: ["audio"],
@@ -324,7 +324,7 @@ function SubjectSection({ subject, title, description, tutorName, link }) {
             title: "Year 4 Maths Resources",
             description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
         },
-        
+
         {
             category: ["visual", "reflective", "kinesthetic"],
             year: 5,
@@ -446,8 +446,149 @@ function SubjectSection({ subject, title, description, tutorName, link }) {
             description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
         },
 
+        {
+            category: ["visual", "reflective", "kinesthetic"],
+            year: 2,
+            link: "https://toytheater.com/category/language-arts/",
+            title: "Year 2 English Games",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+        {
+            category: ["visual", "reflective", "kinesthetic"],
+            year: 2,
+            link: "https://apps.apple.com/us/app/otsimo-special-education-aac/id1084723774",
+            title: "Year 2 Device Learning",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+
+        {
+            category: ["audio", "kinesthetic"],
+            year: 2,
+            link: "https://app.otsimo.org/special-education?gclid=CjwKCAjwy42FBhB2EiwAJY0yQuYkoFkdxJUsE9YuvEVsOfe3JjCLaxWHcCck75KqVuzOm3OfPfv5SxoCEGIQAvD_BwE#utm_source=ad-grants&utm_medium=cpc&utm_campaign=ad-grants-debut&utm_content=autism-apps?campaignid=1916697596&adgroupid=70090526345&adid=395718843548",
+            title: "Year 2 iPad Games",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+        {
+            category: ["audio", "kinesthetic"],
+            year: 2,
+            link: "https://apps.apple.com/us/app/language-therapy-for-kids-mita/id1020290425",
+            title: "Year 2 iPad Application",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+        {
+            category: ["audio", "kinesthetic"],
+            year: 2,
+            link: "https://play.google.com/store/apps/details?id=com.imagiration.mita",
+            title: "Year 2 Android Application",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+        {
+            category: ["audio", "kinesthetic"],
+            year: 2,
+            link: " https://apps.apple.com/us/app/social-story-creator-library/id588180598?ign-mpt=uo%3D8",
+            title: "Year 2 iPad / iPhone Application",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+        {
+            category: ["audio", "kinesthetic"],
+            year: 2,
+            link: "https://apps.apple.com/us/app/endless-reader/id722910739",
+            title: "Year 2 iPad / iPhone Application",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+        {
+            category: ["audio", "kinesthetic"],
+            year: 2,
+            link: "https://apps.apple.com/us/app/speech-blubs-language-therapy/id1544715736",
+            title: "Year 2 iPad / iPhone Application",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
 
 
+
+    ]
+    const science = [
+        {
+            category: ["visual", "reflective"],
+            year: 3,
+            link: "https://www.ixl.com/science/grade-2",
+            title: "Year 3 Science Resources",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+        {
+            category: ["visual", "reflective"],
+            year: 4,
+            link: "https://www.ixl.com/science/grade-3",
+            title: "Year 4 Science Resources",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+
+        {
+            category: ["visual", "reflective"],
+            year: 5,
+            link: "https://www.ixl.com/science/grade-4",
+            title: "Year 5 Science Resources",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+
+        {
+            category: ["visual", "reflective"],
+            year: 6,
+            link: "https://www.ixl.com/science/grade-5",
+            title: "Year 6 Science Resources",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+
+        {
+            category: ["visual", "reflective"],
+            year: 7,
+            link: "https://www.ixl.com/science/grade-6",
+            title: "Year 7 Science Resources",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+
+        {
+            category: ["visual", "reflective"],
+            year: 8,
+            link: "https://www.ixl.com/science/grade-7",
+            title: "Year 8 Science Resources",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+
+        {
+            category: ["visual", "reflective"],
+            year: 9,
+            link: "https://www.ixl.com/science/grade-8",
+            title: "Year 9 Science Resources",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        }
+
+    ]
+
+    const historyGeography = [
+        {
+            category: ["visual", "reflective"],
+            year: 7,
+            link: "https://www.ixl.com/social-studies/grade-6",
+            title: "Year 7 History & Geography Resources",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+
+        {
+            category: ["visual", "reflective"],
+            year: 8,
+            link: " https://www.ixl.com/social-studies/grade-7",
+            title: "Year 8 History & Geography Resources",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
+
+        {
+            category: ["visual", "reflective"],
+            year: 9,
+            link: "https://www.ixl.com/ela/grade-8",
+            title: "Year 9 History & Geography Resources",
+            description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
+        },
     ]
 
     const handleseeAll = () => {
@@ -471,14 +612,14 @@ function SubjectSection({ subject, title, description, tutorName, link }) {
                     )
 
                 })
-                :
-                maths.slice(0, 3).map((mathCard) => {
-                    return (
-                        <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                    :
+                    maths.slice(0, 3).map((mathCard) => {
+                        return (
+                            <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
-                    )
+                        )
 
-                })
+                    })
                 :
                 ""
             }
@@ -491,14 +632,54 @@ function SubjectSection({ subject, title, description, tutorName, link }) {
                     )
 
                 })
+                    :
+                    english.slice(0, 3).map((englishCard) => {
+                        return (
+                            <SubjectCard title={englishCard.title} thumbnail={thumbnail} description={englishCard.description} tutorName={"tutorName"} link={englishCard.link} />
+
+                        )
+
+                    })
                 :
-                english.slice(0, 3).map((englishCard) => {
+                ""
+            }
+
+            {(subject == "Science") ?
+                seeAll ? science.map((scienceCard) => {
                     return (
-                        <SubjectCard title={englishCard.title} thumbnail={thumbnail} description={englishCard.description} tutorName={"tutorName"} link={englishCard.link} />
+                        <SubjectCard title={scienceCard.title} thumbnail={thumbnail} description={scienceCard.description} tutorName={"tutorName"} link={scienceCard.link} />
 
                     )
 
                 })
+                    :
+                    science.slice(0, 3).map((scienceCard) => {
+                        return (
+                            <SubjectCard title={scienceCard.title} thumbnail={thumbnail} description={scienceCard.description} tutorName={"tutorName"} link={scienceCard.link} />
+
+                        )
+
+                    })
+                :
+                ""
+            }
+
+            {(subject == "History And Geography") ?
+                seeAll ? historyGeography.map((historyGeographyCard) => {
+                    return (
+                        <SubjectCard title={historyGeographyCard.title} thumbnail={thumbnail} description={historyGeographyCard.description} tutorName={"tutorName"} link={historyGeographyCard.link} />
+
+                    )
+
+                })
+                    :
+                    historyGeography.slice(0, 3).map((historyGeographyCard) => {
+                        return (
+                            <SubjectCard title={historyGeographyCard.title} thumbnail={thumbnail} description={historyGeographyCard.description} tutorName={"tutorName"} link={historyGeographyCard.link} />
+
+                        )
+
+                    })
                 :
                 ""
             }
