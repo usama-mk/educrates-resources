@@ -1,10 +1,18 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import SubjectCard from '../SubjectCard/SubjectCard'
 import thumbnail from '../../assets/header1.png'
 import './SubjectSection.css'
+import FilteredEnglish from '../Filtered/English/FilteredEnglish'
+import { useSelector } from 'react-redux'
 
-function SubjectSection({ subject, selectedTabVisual, selectedTabAuditory, selectedTabKinesthetic, selectedTabReflective }) {
+function SubjectSection({ subject}) {
     const [seeAll, setSeeAll] = useState(false)
+    const selectedTabVisual= useSelector(state => state.selectedTabVisual)
+    const selectedTabAuditory= useSelector(state=> state.selectedTabAuditory)
+    const selectedTabKinesthetic= useSelector(state=> state.selectedTabKinesthetic)
+    const selectedTabReflective= useSelector(state=> state.selectedTabReflective)
+   
+
     const maths = [
 
         {
@@ -590,7 +598,7 @@ function SubjectSection({ subject, selectedTabVisual, selectedTabAuditory, selec
             description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
         },
     ]
-
+// Maths filters
     var filteredVisuals = maths.filter(function (lesson) {
         return lesson.category.includes('visual')
 
@@ -610,6 +618,69 @@ function SubjectSection({ subject, selectedTabVisual, selectedTabAuditory, selec
         return lesson.category.includes('reflective')
 
     });
+// English filters
+
+    var filteredVisualsEnglish = english.filter(function (lesson) {
+        return lesson.category.includes('visual')
+
+    });
+
+    var filteredAuditoryEnglish = english.filter(function (lesson) {
+        return lesson.category.includes('audio')
+
+    });
+
+    var filteredKinestheticEnglish = english.filter(function (lesson) {
+        return lesson.category.includes('kinesthetic')
+
+    });
+
+    var filteredReflectiveEnglish = english.filter(function (lesson) {
+        return lesson.category.includes('reflective')
+
+    });
+// Science Filters
+
+    var filteredVisualsScience = science.filter(function (lesson) {
+        return lesson.category.includes('visual')
+
+    });
+
+    var filteredAuditoryScience = science.filter(function (lesson) {
+        return lesson.category.includes('audio')
+
+    });
+
+    var filteredKinestheticScience = science.filter(function (lesson) {
+        return lesson.category.includes('kinesthetic')
+
+    });
+
+    var filteredReflectiveScience = science.filter(function (lesson) {
+        return lesson.category.includes('reflective')
+
+    });
+    // Science Filters
+
+    var filteredVisualsHistoryGeography = historyGeography.filter(function (lesson) {
+        return lesson.category.includes('visual')
+
+    });
+
+    var filteredAuditoryHistoryGeography = historyGeography.filter(function (lesson) {
+        return lesson.category.includes('audio')
+
+    });
+
+    var filteredKinestheticHistoryGeography = historyGeography.filter(function (lesson) {
+        return lesson.category.includes('kinesthetic')
+
+    });
+
+    var filteredReflectiveHistoryGeography = historyGeography.filter(function (lesson) {
+        return lesson.category.includes('reflective')
+
+    });
 
     const handleseeAll = () => {
         setSeeAll(prev => !prev)
@@ -622,8 +693,9 @@ function SubjectSection({ subject, selectedTabVisual, selectedTabAuditory, selec
                     {seeAll ? `SEE LESS <` : ` SEE ALL >`}
                 </div>
             </div>
-
+            {/* {console.log(selectedTabKinesthetic)} */}
             {/* Subject Card */}
+            {console.log(" math "+ selectedTabKinesthetic)}
             {(subject == "Mathematics") ?
                 seeAll ? (!selectedTabAuditory ?
                     !selectedTabVisual ?
@@ -727,30 +799,121 @@ function SubjectSection({ subject, selectedTabVisual, selectedTabAuditory, selec
                             )
 
                         })
-                    )
+                        
+                    ) 
                 :
                 ""
+               
             }
+            {console.log(" English "+ selectedTabKinesthetic)}
+           {/* <FilteredEnglish subject="English" selectedTabAuditory={selectedTabAuditoryL} selectedTabKinesthetic={true} selectedTabReflective={selectedTabReflectiveL} selectedTabVisual={selectedTabVisualL} seeAll={seeAll} english={english} /> */}
+           {(subject == "English") ?
+                seeAll ? (!selectedTabAuditory ?
+                    !selectedTabVisual ?
+                        !true ?
+                            !selectedTabReflective ?
+                                english.map((mathCard) => {
 
-            {(subject == "English") ?
-                seeAll ? english.map((englishCard) => {
-                    return (
-                        <SubjectCard title={englishCard.title} thumbnail={thumbnail} description={englishCard.description} tutorName={"tutorName"} link={englishCard.link} />
+                                    return (
+                                        <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
-                    )
+                                    )
 
-                })
+                                })
+
+                                :
+                                filteredReflectiveEnglish.map((mathCard) => {
+
+                                    return (
+                                        <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                                    )
+
+                                })
+                            :
+                            filteredKinestheticEnglish.map((mathCard) => {
+                                    // console.log(mathCard)
+                                return (
+                                    <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                                )
+
+                            })
+
+                        :
+                        filteredVisualsEnglish.map((mathCard) => {
+
+                            return (
+                                <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                            )
+
+                        })
                     :
-                    english.slice(0, 3).map((englishCard) => {
+                    filteredAuditoryEnglish.map((mathCard) => {
+
                         return (
-                            <SubjectCard title={englishCard.title} thumbnail={thumbnail} description={englishCard.description} tutorName={"tutorName"} link={englishCard.link} />
+                            <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
                         )
 
                     })
+                )
+                    :
+                    (!selectedTabAuditory ?
+                        !selectedTabVisual ?
+                            !selectedTabKinesthetic ?
+                                !selectedTabReflective ?
+                                    english.slice(0, 3).map((mathCard) => {
+
+                                        return (
+                                            <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                                        )
+
+                                    })
+
+                                    :
+                                    filteredReflectiveEnglish.slice(0, 3).map((mathCard) => {
+
+                                        return (
+                                            <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                                        )
+
+                                    })
+                                :
+                                filteredKinestheticEnglish.slice(0, 3).map((mathCard) => {
+
+                                    return (
+                                        <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                                    )
+
+                                })
+
+                            :
+                            filteredVisualsEnglish.slice(0, 3).map((mathCard) => {
+
+                                return (
+                                    <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                                )
+
+                            })
+                        :
+                        filteredAuditoryEnglish.slice(0, 3).map((mathCard) => {
+
+                            return (
+                                <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                            )
+
+                        })
+                    )
                 :
                 ""
-            }
+            }  
 
             {(subject == "Science") ?
                 seeAll ? science.map((scienceCard) => {

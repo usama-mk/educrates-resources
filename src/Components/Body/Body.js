@@ -1,49 +1,72 @@
 import React, { useEffect, useState } from 'react'
 import SubjectSection from '../Subject Section/SubjectSection'
 import header1 from '../../assets/header1.png'
+import {toggleAuditory, toggleKinesthetic, toggleReflective, toggleVisual} from '../../actions/index.js'
 import './Body.css'
+import { useDispatch, useSelector } from 'react-redux'
 
 function Body() {
-    const[selectedTabVisual, setSelectedTabVisual]= useState(false)
-    const[selectedTabAuditory, setSelectedTabAuditory]= useState(false)
-    const[selectedTabKinesthetic, setSelectedTabKinesthetic]= useState(false)
-    const[selectedTabReflective, setSelectedTabReflective]= useState(false)
-
+    const selectedTabVisual= useSelector(state => state.selectedTabVisual)
+    const selectedTabAuditory= useSelector(state => state.selectedTabAuditory)
+    const selectedTabKinesthetic= useSelector(state => state.selectedTabKinesthetic)
+    const selectedTabReflective= useSelector(state => state.selectedTabReflective)
+    const selectedTabVisualL= useSelector(state => state.selectedTabVisual)
+   
+    const dispatch= useDispatch();
 
     const toggleSelected=(id)=>{
         if((id=='visual')){
-           setSelectedTabVisual((prev)=>{ return !prev})
+            
+            dispatch(toggleVisual(!selectedTabVisual))
+            console.log("aaaaaaaaa"+selectedTabVisualL)
+
+        //    setSelectedTabVisual((prev)=>{ return !prev})
+           
             if(true){
-                setSelectedTabAuditory(false)
-                setSelectedTabKinesthetic(false)
-                setSelectedTabReflective(false)
+                dispatch(toggleAuditory(false))
+                dispatch(toggleKinesthetic(false))
+                dispatch(toggleReflective(false))
+                // setSelectedTabAuditory(false)
+                // setSelectedTabKinesthetic(false)
+                // setSelectedTabReflective(false)
             }
            
             
         }
         else if((id=='auditory')){
-           
-            setSelectedTabAuditory((prev)=>!prev)
+             dispatch(toggleAuditory(!selectedTabAuditory))
+            // setSelectedTabAuditory((prev)=>!prev)
             if(true){
-                setSelectedTabVisual(false)
-                setSelectedTabKinesthetic(false)
-                setSelectedTabReflective(false)
+                dispatch(toggleVisual(false))
+                dispatch(toggleKinesthetic(false))
+                dispatch(toggleReflective(false))
+                // setSelectedTabVisual(false)
+                // setSelectedTabKinesthetic(false)
+                // setSelectedTabReflective(false)
             }
         }
         else if( (id=='kinesthetic')){
-            setSelectedTabKinesthetic((prev)=>!prev)
+            dispatch(toggleKinesthetic(!selectedTabKinesthetic))
+            // setSelectedTabKinesthetic((prev)=>!prev)
             if(true){
-                setSelectedTabVisual(false)
-                setSelectedTabAuditory(false)
-                setSelectedTabReflective(false)
+                dispatch(toggleVisual(false))
+                dispatch(toggleAuditory(false))
+                dispatch(toggleReflective(false))
+                // setSelectedTabVisual(false)
+                // setSelectedTabAuditory(false)
+                // setSelectedTabReflective(false)
             }
         }
         else if((id=='reflective')){
-            setSelectedTabReflective((prev)=>!prev)
+            dispatch(toggleReflective(!selectedTabReflective))
+            // setSelectedTabReflective((prev)=>!prev)
             if(true){
-                setSelectedTabVisual(false)
-                setSelectedTabAuditory(false)
-                setSelectedTabKinesthetic(false)
+                dispatch(toggleVisual(false))
+                dispatch(toggleAuditory(false))
+                dispatch(toggleKinesthetic(false))
+                // setSelectedTabVisual(false)
+                // setSelectedTabAuditory(false)
+                // setSelectedTabKinesthetic(false)
             }
         }
     }
