@@ -3,7 +3,7 @@ import SubjectCard from '../SubjectCard/SubjectCard'
 import thumbnail from '../../assets/header1.png'
 import './SubjectSection.css'
 
-function SubjectSection({ subject, title, description, tutorName, link }) {
+function SubjectSection({ subject, selectedTabVisual, selectedTabAuditory, selectedTabKinesthetic, selectedTabReflective }) {
     const [seeAll, setSeeAll] = useState(false)
     const maths = [
 
@@ -591,6 +591,26 @@ function SubjectSection({ subject, title, description, tutorName, link }) {
         },
     ]
 
+    var filteredVisuals = maths.filter(function (lesson) {
+        return lesson.category.includes('visual')
+               
+      });
+
+      var filteredAuditory = maths.filter(function (lesson) {
+        return lesson.category.includes('audio')
+               
+      });
+
+      var filteredKinesthetic = maths.filter(function (lesson) {
+        return lesson.category.includes('kinesthetic')
+               
+      });
+
+      var filteredReflective = maths.filter(function (lesson) {
+        return lesson.category.includes('reflective')
+               
+      });
+
     const handleseeAll = () => {
         setSeeAll(prev => !prev)
     }
@@ -613,13 +633,57 @@ function SubjectSection({ subject, title, description, tutorName, link }) {
 
                 })
                     :
+                   ( !selectedTabAuditory? 
+                    !selectedTabVisual?
+                    !selectedTabKinesthetic?
+                    !selectedTabReflective?
                     maths.slice(0, 3).map((mathCard) => {
+                         
                         return (
                             <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
                         )
 
                     })
+                    
+                    :
+                    filteredReflective.slice(0, 3).map((mathCard) => {
+                         
+                        return (
+                            <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                        )
+
+                    })
+                    :
+                    filteredKinesthetic.slice(0, 3).map((mathCard) => {
+                         
+                        return (
+                            <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                        )
+
+                    })
+                      
+                    :
+                    filteredVisuals.slice(0, 3).map((mathCard) => {
+                         
+                        return (
+                            <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                        )
+
+                    })
+                    :
+                    filteredAuditory.slice(0, 3).map((mathCard) => {
+                         
+                        return (
+                            <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                        )
+
+                    })
+                    )
                 :
                 ""
             }

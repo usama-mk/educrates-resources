@@ -18,6 +18,7 @@ function Body() {
                 setSelectedTabKinesthetic(false)
                 setSelectedTabReflective(false)
             }
+           
             
         }
         else if((id=='auditory')){
@@ -68,7 +69,7 @@ function Body() {
             </div>
 
 {/* Subjects */}
-             <SubjectSection subject="Mathematics" />
+             <SubjectSection subject="Mathematics" selectedTabVisual={selectedTabVisual} selectedTabAuditory={selectedTabAuditory} selectedTabKinesthetic={selectedTabKinesthetic} selectedTabReflective={selectedTabReflective} />
              <SubjectSection subject="English" />
              <SubjectSection subject="Science" />
              <SubjectSection subject="History And Geography" />
