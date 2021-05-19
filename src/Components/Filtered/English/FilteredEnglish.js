@@ -1,39 +1,97 @@
 import React from 'react'
+import { useSelector } from 'react-redux';
 import thumbnail from '../../../assets/header1.png'
 
 import SubjectCard from '../../SubjectCard/SubjectCard';
 
-function FilteredEnglish({ subject, selectedTabVisual, selectedTabAuditory, selectedTabKinesthetic, selectedTabReflective, seeAll, english}) {
-    
+function FilteredEnglish({ seeAll, english }) {
+
+    const selectedTabVisual = useSelector(state => state.selectedTabVisual)
+    const selectedTabAuditory = useSelector(state => state.selectedTabAuditory)
+    const selectedTabKinesthetic = useSelector(state => state.selectedTabKinesthetic)
+    const selectedTabReflective = useSelector(state => state.selectedTabReflective)
+
+
     var filteredVisualsEnglish = english.filter(function (lesson) {
         return lesson.category.includes('visual')
-    
+
     });
-    
+
     var filteredAuditoryEnglish = english.filter(function (lesson) {
         return lesson.category.includes('audio')
-    
+
     });
-    
+
     var filteredKinestheticEnglish = english.filter(function (lesson) {
         return lesson.category.includes('kinesthetic')
-    
+
     });
-    
+
     var filteredReflectiveEnglish = english.filter(function (lesson) {
         return lesson.category.includes('reflective')
-    
+
     });
-    console.log(filteredKinestheticEnglish)
-    
+
+
     return (
         <div className="filteredE">
-         {(subject == "English") ?
-                seeAll ? (!selectedTabAuditory ?
+            { seeAll ? (!selectedTabAuditory ?
+                !selectedTabVisual ?
+                    !true ?
+                        !selectedTabReflective ?
+                            english.map((mathCard) => {
+
+                                return (
+                                    <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                                )
+
+                            })
+
+                            :
+                            filteredReflectiveEnglish.map((mathCard) => {
+
+                                return (
+                                    <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                                )
+
+                            })
+                        :
+                        filteredKinestheticEnglish.map((mathCard) => {
+                            // console.log(mathCard)
+                            return (
+                                <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                            )
+
+                        })
+
+                    :
+                    filteredVisualsEnglish.map((mathCard) => {
+
+                        return (
+                            <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                        )
+
+                    })
+                :
+                filteredAuditoryEnglish.map((mathCard) => {
+
+                    return (
+                        <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+
+                    )
+
+                })
+            )
+                :
+                (!selectedTabAuditory ?
                     !selectedTabVisual ?
                         !selectedTabKinesthetic ?
                             !selectedTabReflective ?
-                                english.map((mathCard) => {
+                                english.slice(0, 3).map((mathCard) => {
 
                                     return (
                                         <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
@@ -43,7 +101,7 @@ function FilteredEnglish({ subject, selectedTabVisual, selectedTabAuditory, sele
                                 })
 
                                 :
-                                filteredReflectiveEnglish.map((mathCard) => {
+                                filteredReflectiveEnglish.slice(0, 3).map((mathCard) => {
 
                                     return (
                                         <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
@@ -52,8 +110,8 @@ function FilteredEnglish({ subject, selectedTabVisual, selectedTabAuditory, sele
 
                                 })
                             :
-                            filteredKinestheticEnglish.map((mathCard) => {
-                                    console.log(mathCard)
+                            filteredKinestheticEnglish.slice(0, 3).map((mathCard) => {
+
                                 return (
                                     <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
@@ -62,7 +120,7 @@ function FilteredEnglish({ subject, selectedTabVisual, selectedTabAuditory, sele
                             })
 
                         :
-                        filteredVisualsEnglish.map((mathCard) => {
+                        filteredVisualsEnglish.slice(0, 3).map((mathCard) => {
 
                             return (
                                 <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
@@ -71,7 +129,7 @@ function FilteredEnglish({ subject, selectedTabVisual, selectedTabAuditory, sele
 
                         })
                     :
-                    filteredAuditoryEnglish.map((mathCard) => {
+                    filteredAuditoryEnglish.slice(0, 3).map((mathCard) => {
 
                         return (
                             <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
@@ -80,61 +138,7 @@ function FilteredEnglish({ subject, selectedTabVisual, selectedTabAuditory, sele
 
                     })
                 )
-                    :
-                    (!selectedTabAuditory ?
-                        !selectedTabVisual ?
-                            !selectedTabKinesthetic ?
-                                !selectedTabReflective ?
-                                    english.slice(0, 3).map((mathCard) => {
-
-                                        return (
-                                            <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
-
-                                        )
-
-                                    })
-
-                                    :
-                                    filteredReflectiveEnglish.slice(0, 3).map((mathCard) => {
-
-                                        return (
-                                            <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
-
-                                        )
-
-                                    })
-                                :
-                                filteredKinestheticEnglish.slice(0, 3).map((mathCard) => {
-
-                                    return (
-                                        <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
-
-                                    )
-
-                                })
-
-                            :
-                            filteredVisualsEnglish.slice(0, 3).map((mathCard) => {
-
-                                return (
-                                    <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
-
-                                )
-
-                            })
-                        :
-                        filteredAuditoryEnglish.slice(0, 3).map((mathCard) => {
-
-                            return (
-                                <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
-
-                            )
-
-                        })
-                    )
-                :
-                ""
-            }    
+            }
         </div>
     )
 }
