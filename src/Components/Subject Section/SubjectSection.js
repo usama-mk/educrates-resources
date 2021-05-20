@@ -54,14 +54,14 @@ function SubjectSection({ subject}) {
 
             {(subject == "Primary School Resources") ?
             <SubjectCard title={"GCSE Maths and English Exam Guidance"} thumbnail={primary} description=" GCSE Maths and English Exam Guidance specifically tailored towards students with Autism."
-                 tutorName={"tutorName"} link="https://www.autismeducationtrust.org.uk/shop/aet-exam-boards/" />
+                 tutorName={"Arsad Ansary"} link="https://www.autismeducationtrust.org.uk/shop/aet-exam-boards/" />
                             :
                             ""
                         }
 
             {(subject == "Secondary School Resources") ?
                 <SubjectCard title={"GCSE Maths and English Exam Guidance"} thumbnail={primary} description=" GCSE Maths and English Exam Guidance specifically tailored towards students with Autism."
-                 tutorName={"tutorName"} link="https://www.autismeducationtrust.org.uk/shop/aet-exam-boards/" />
+                 tutorName={"Arsad Ansary"} link="https://www.autismeducationtrust.org.uk/shop/aet-exam-boards/" />
 
                 :
                 ""

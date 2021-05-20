@@ -5,7 +5,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #094B35;
-    color: white;
+    color: 	lightgray;
 }
 
 .header__mid{
@@ -23,6 +23,9 @@
 }
 .header__mid> div{
     margin: 15px;
+}
+.selectedHeader{
+    color: white;
 }
 .header__right{
     width: 140px;

@@ -9,7 +9,7 @@ function Header() {
         <img src={logo} alt="logo" />
 
         <div className="header__mid">
-          <div className="header__mid__home pointer">
+          <div className="header__mid__home pointer selectedHeader">
             Home
           </div>
 

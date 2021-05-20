@@ -49,6 +49,8 @@ import resourcesM24 from './assets/Maths/resources24.png'
 import resourcesM25 from './assets/Maths/resources25.png'
 import resourcesM26 from './assets/Maths/resources26.png'
 import resourcesM27 from './assets/Maths/resources27.png'
+import resourcesM28 from './assets/Maths/resources28.png'
+import resourcesM29 from './assets/Maths/resources29.png'
 import resourcesMK from './assets/Maths/resourcesRK.png'
 
 // Science imports
@@ -376,7 +378,7 @@ const maths = [
         description: "Year 2 Autism / ADHD friendly Maths resource game – Football themed game that teaches addition with an interactive component"
     },
     {
-        thumbnail: resourcesM4,
+        thumbnail: resourcesM18,
         category: ["visual", "reflective"],
         year: 2,
         link: " https://www.twinkl.co.uk/go/resource/the-numbers-game-tournament-subtraction-tg-t-m",
@@ -384,7 +386,7 @@ const maths = [
         description: " Year 2 Autism / ADHD friendly Maths resource game – Football themed game that teaches subtraction with an interactive component"
     },
     {
-        thumbnail: header1,
+        thumbnail: resourcesM28,
         category: ["visual", "reflective"],
         year: 2,
         link: "https://www.twinkl.co.uk/resource/the-numbers-game-tournament-division-tg-t-m",
@@ -393,7 +395,7 @@ const maths = [
     },
 
     {
-        thumbnail: header2,
+        thumbnail: resourcesM29,
         category: ["visual", "audio"],
         year: 2,
         link: "https://www.youtube.com/watch?v=YzcMBQNCjt4",
@@ -419,7 +421,7 @@ const maths = [
         description: " Year 3 Autism / ADHD friendly Maths resource game – Football themed game that teaches multiplication with an interactive component "
     },
     {
-        thumbnail: resourcesM,
+        thumbnail: resourcesM4,
         category: ["visual", "kinesthetic"],
         year: 3,
         link: "https://www.twinkl.co.uk/go/resource/the-numbers-game-tournament-addition-tg-t-m",

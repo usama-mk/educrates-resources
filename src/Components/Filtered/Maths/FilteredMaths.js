@@ -39,7 +39,7 @@ function FilteredMaths({ seeAll, maths }) {
                                 maths.map((mathCard) => {
 
                                     return (
-                                        <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                        <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"Arsad Ansary"} link={mathCard.link} />
 
                                     )
 
@@ -49,7 +49,7 @@ function FilteredMaths({ seeAll, maths }) {
                                 filteredReflective.map((mathCard) => {
 
                                     return (
-                                        <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                        <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"Arsad Ansary"} link={mathCard.link} />
 
                                     )
 
@@ -58,7 +58,7 @@ function FilteredMaths({ seeAll, maths }) {
                             filteredKinesthetic.map((mathCard) => {
 
                                 return (
-                                    <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                    <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"Arsad Ansary"} link={mathCard.link} />
 
                                 )
 
@@ -68,7 +68,7 @@ function FilteredMaths({ seeAll, maths }) {
                         filteredVisuals.map((mathCard) => {
 
                             return (
-                                <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"Arsad Ansary"} link={mathCard.link} />
 
                             )
 
@@ -77,7 +77,7 @@ function FilteredMaths({ seeAll, maths }) {
                     filteredAuditory.map((mathCard) => {
 
                         return (
-                            <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                            <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"Arsad Ansary"} link={mathCard.link} />
 
                         )
 
@@ -91,7 +91,7 @@ function FilteredMaths({ seeAll, maths }) {
                                     maths.slice(0, 3).map((mathCard) => {
 
                                         return (
-                                            <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                            <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"Arsad Ansary"} link={mathCard.link} />
 
                                         )
 
@@ -101,7 +101,7 @@ function FilteredMaths({ seeAll, maths }) {
                                     filteredReflective.slice(0, 3).map((mathCard) => {
 
                                         return (
-                                            <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                            <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"Arsad Ansary"} link={mathCard.link} />
 
                                         )
 
@@ -110,7 +110,7 @@ function FilteredMaths({ seeAll, maths }) {
                                 filteredKinesthetic.slice(0, 3).map((mathCard) => {
 
                                     return (
-                                        <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                        <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"Arsad Ansary"} link={mathCard.link} />
 
                                     )
 
@@ -120,7 +120,7 @@ function FilteredMaths({ seeAll, maths }) {
                             filteredVisuals.slice(0, 3).map((mathCard) => {
 
                                 return (
-                                    <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                    <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"Arsad Ansary"} link={mathCard.link} />
 
                                 )
 
@@ -129,7 +129,7 @@ function FilteredMaths({ seeAll, maths }) {
                         filteredAuditory.slice(0, 3).map((mathCard) => {
 
                             return (
-                                <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"Arsad Ansary"} link={mathCard.link} />
 
                             )
 
