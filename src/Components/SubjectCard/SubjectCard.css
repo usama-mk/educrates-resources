@@ -24,6 +24,7 @@
     margin-left: 20px;
 }
 .subjectCard__desc>h2{
+    text-align: left;
     display: flex;
     flex-wrap: wrap;
     max-width: 551px;
@@ -118,4 +119,161 @@
 a:link, a:visited {
     text-decoration: none;
     cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .subjectCard{
+        display: flex;
+        /* align-items: center; */
+        min-width: 73vw;
+       
+        margin: 20px;
+    }
+    
+    .subjectCard__thumbnail{
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+    .subjectCard__thumbnail>a>img{
+        max-width: 200px;
+        max-height: 210px;
+        margin-left: 20px;
+    }
+    .subjectCard__desc>h2{
+        max-width: 335px;
+        height: 33px;
+        font-size: 25px;
+        line-height: 33px;
+    
+    }
+     
+    
+    .subjectCard__description{
+        
+        max-width: 335px;
+        max-height: 101px;
+        font-size: 14px;
+        line-height: 27px;
+        
+    }
+
+    .tutorName{
+        
+        font-size: 14px;
+        line-height: 26px;
+        
+    }
+
+    .subjectCard__right__enroll__button{
+        
+        width: 130px;
+        height: 44px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 14px;
+        line-height: 19px;
+         
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .subjectCard{
+         margin: 20px;
+    }
+    
+    .subjectCard__thumbnail{
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+    .subjectCard__thumbnail>a>img{
+        max-width: 180px;
+        max-height: 190px;
+        margin-left: 20px;
+    }
+    .subjectCard__desc>h2{
+        max-width: 290px;
+        height: 33px;
+        font-size: 23px;
+        line-height: 33px;
+    
+    }
+     
+    
+    .subjectCard__description{
+        
+        max-width: 290px;
+        max-height: 101px;
+        font-size: 13px;
+        line-height: 27px;
+        
+    }
+
+    .tutorName{
+        
+        font-size: 13px;
+        line-height: 26px;
+        
+    }
+
+    .subjectCard__right__enroll__button{
+        
+        width: 130px;
+        height: 44px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 14px;
+        line-height: 19px;
+         
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .subjectCard{
+         margin: 20px 10px;
+    }
+    
+    .subjectCard__thumbnail{
+        margin-right: 18px;
+        margin-top: 30px;
+    }
+    .subjectCard__thumbnail>a>img{
+        max-width: 130px;
+        max-height: 190px;
+        margin-left: 20px;
+    }
+    .subjectCard__desc>h2{
+        max-width: 230px;
+        height: 33px;
+        font-size: 22px;
+        line-height: 33px;
+    
+    }
+     
+    
+    .subjectCard__description{
+        
+        max-width: 230px;
+        max-height: 101px;
+        font-size: 12px;
+        line-height: 27px;
+        
+    }
+
+    .tutorName{
+        
+        font-size: 12px;
+        line-height: 26px;
+        
+    }
+
+    .subjectCard__right__enroll__button{
+        
+        width: 80px;
+        height: 44px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 13px;
+        line-height: 19px;
+         
+    }
 }

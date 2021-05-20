@@ -49,3 +49,22 @@
     color: #094B35;
 
 }
+
+@media screen and (max-width: 750px) {
+    .tab__button__selected{
+        width: 130px;
+        height: 30px;
+        font-size: 12px;
+        line-height: 15px;
+        margin: 15px;
+         
+    }
+    
+    .tab__button{
+        width: 130px;
+        height: 30px;  
+        font-size: 12px;
+        line-height: 15px;    
+        margin: 15px;
+    }
+  }

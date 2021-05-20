@@ -42,3 +42,23 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 750px) {
+    
+    .subjectSection__header> h1{
+        
+        font-size: 25px;
+        line-height: 32px;
+        
+    }
+    
+    .seeAll__button{
+        width: 70px;
+        height: 32px;
+        
+        font-size: 10px;
+        line-height: 11px;
+        
+    }
+    
+}

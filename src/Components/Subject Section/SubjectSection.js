@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import './SubjectSection.css'
+import primary from '../../assets/Maths/primary.png'
 import FilteredEnglish from '../Filtered/English/FilteredEnglish'
 import FilteredMaths from '../Filtered/Maths/FilteredMaths'
 import FilteredScience from '../Filtered/Science/FilteredScience'
 import FilteredHistoryGeography from '../Filtered/FilteredHistoryGeography/FilteredHistoryGeography'
 import { english, historyGeography, maths, science } from '../../data'
+import SubjectCard from '../SubjectCard/SubjectCard'
 
 function SubjectSection({ subject}) {
     const [seeAll, setSeeAll] = useState(false)
@@ -48,7 +50,22 @@ function SubjectSection({ subject}) {
                 ""
             }
 
+          
 
+            {(subject == "Primary School Resources") ?
+            <SubjectCard title={"GCSE Maths and English Exam Guidance"} thumbnail={primary} description=" GCSE Maths and English Exam Guidance specifically tailored towards students with Autism."
+                 tutorName={"tutorName"} link="https://www.autismeducationtrust.org.uk/shop/aet-exam-boards/" />
+                            :
+                            ""
+                        }
+
+            {(subject == "Secondary School Resources") ?
+                <SubjectCard title={"GCSE Maths and English Exam Guidance"} thumbnail={primary} description=" GCSE Maths and English Exam Guidance specifically tailored towards students with Autism."
+                 tutorName={"tutorName"} link="https://www.autismeducationtrust.org.uk/shop/aet-exam-boards/" />
+
+                :
+                ""
+            }                
         </div>
     )
 }

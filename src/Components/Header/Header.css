@@ -21,7 +21,9 @@
     font-size: 18px;
 
 }
-
+.header__mid> div{
+    margin: 15px;
+}
 .header__right{
     width: 140px;
     height: 55px;
@@ -45,3 +47,43 @@
     .pointer{
         cursor: pointer;
     }
+
+    @media screen and (max-width: 750px) {
+         .header>img{
+             width: 80px;
+         }
+
+         .header__mid{
+            display: flex;
+            width: 33%;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-left: 15px;
+            margin-right: 15px;
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+        
+        }
+
+        .header__right{
+            width: 100px;
+            height: 35px;
+            background: #41C1BA;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            }
+      }

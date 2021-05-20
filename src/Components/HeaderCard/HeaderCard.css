@@ -64,3 +64,33 @@
     line-height: 28px;
      
 }
+
+@media screen and (max-width: 750px) {
+    .header1{
+        width: 200px;
+        height: 135px;
+        margin: 10px;
+    }
+     
+     
+    .header1>img{
+        width: 200px;
+        height: 135px;
+        border-radius: 10px;
+    
+    }
+
+    .header1> button{
+        
+        display: flex;
+        align-items: center;
+        padding: 8px 22px;
+       
+        width: 80px;
+        height: 20px;
+     
+        font-size: 14px;
+        line-height: 16px;
+         
+    }
+  }

@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 .footer{
     height: 228px;
-    left: 0px;
-    top: 4921px;
     background: #094B35;
     display: flex;
     justify-content: space-around;
@@ -42,4 +40,39 @@
 .footer__designedby>span{
     color: white;
     margin-left: 5px;
+}
+
+@media screen and (max-width: 750px) {
+    .footer{
+        height: 190px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+    }
+    
+    .footer__copyright{
+        max-width: 350px;
+        height: 21px;
+         
+        font-size: 16px;
+        line-height: 21px;
+ 
+    }
+    
+    .footer__designedby{
+        max-width: 220px;
+        height: 21px;
+       
+        font-size: 16px;
+        line-height: 21px;
+       
+        
+    }
+    
+    .footer__designedby>span{
+       
+        margin-left: 5px;
+    }
 }

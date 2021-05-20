@@ -96,6 +96,8 @@ function Body() {
              <SubjectSection subject="English" />
              <SubjectSection subject="Science" />
              <SubjectSection subject="History And Geography" />
+             <SubjectSection subject="Primary School Resources" />
+             <SubjectSection subject="Secondary School Resources" />
 {/* 
 <SubjectSection subject="English" title="English Speaking by the webapp part one" description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut purus ex. Praesent in velit eget nulla pharetra malesuada quis vitae nulla. Mauris faucibus, lorem at tempor efficitur, enim dolor tincidunt eros, id mollis nunc arcu eu mi. a malesuada quis vitae nulla. Maur"
               tutorName="Arsad Ansary" thumbnail={header1} link="https://www.google.com/" /> */}

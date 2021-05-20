@@ -40,7 +40,7 @@ function FilteredHistoryGeography({seeAll, historyGeography}) {
                                 historyGeography.map((mathCard) => {
 
                                     return (
-                                        <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                        <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
                                     )
 
@@ -50,7 +50,7 @@ function FilteredHistoryGeography({seeAll, historyGeography}) {
                                 filteredReflectiveHistoryGeography.map((mathCard) => {
 
                                     return (
-                                        <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                        <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
                                     )
 
@@ -59,7 +59,7 @@ function FilteredHistoryGeography({seeAll, historyGeography}) {
                             filteredKinestheticHistoryGeography.map((mathCard) => {
 
                                 return (
-                                    <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                    <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
                                 )
 
@@ -69,7 +69,7 @@ function FilteredHistoryGeography({seeAll, historyGeography}) {
                         filteredVisualsHistoryGeography.map((mathCard) => {
 
                             return (
-                                <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
                             )
 
@@ -78,7 +78,7 @@ function FilteredHistoryGeography({seeAll, historyGeography}) {
                     filteredAuditoryHistoryGeography.map((mathCard) => {
 
                         return (
-                            <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                            <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
                         )
 
@@ -92,7 +92,7 @@ function FilteredHistoryGeography({seeAll, historyGeography}) {
                                 historyGeography.slice(0, 3).map((mathCard) => {
 
                                         return (
-                                            <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                            <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
                                         )
 
@@ -102,7 +102,7 @@ function FilteredHistoryGeography({seeAll, historyGeography}) {
                                     filteredReflectiveHistoryGeography.slice(0, 3).map((mathCard) => {
 
                                         return (
-                                            <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                            <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
                                         )
 
@@ -111,7 +111,7 @@ function FilteredHistoryGeography({seeAll, historyGeography}) {
                                 filteredKinestheticHistoryGeography.slice(0, 3).map((mathCard) => {
 
                                     return (
-                                        <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                        <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
                                     )
 
@@ -121,7 +121,7 @@ function FilteredHistoryGeography({seeAll, historyGeography}) {
                             filteredVisualsHistoryGeography.slice(0, 3).map((mathCard) => {
 
                                 return (
-                                    <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                    <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
                                 )
 
@@ -130,7 +130,7 @@ function FilteredHistoryGeography({seeAll, historyGeography}) {
                         filteredAuditoryHistoryGeography.slice(0, 3).map((mathCard) => {
 
                             return (
-                                <SubjectCard title={mathCard.title} thumbnail={thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
+                                <SubjectCard title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} tutorName={"tutorName"} link={mathCard.link} />
 
                             )
 

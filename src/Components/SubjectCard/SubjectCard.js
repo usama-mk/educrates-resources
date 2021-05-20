@@ -1,6 +1,6 @@
 import { Avatar } from '@material-ui/core'
 import React from 'react'
-import header2 from '../../assets/header2.png'
+import avatarImage from '../../assets/avatarImage.png'
 import './SubjectCard.css'
 
 function SubjectCard({ title, thumbnail, description, tutorName, link }) {
@@ -19,7 +19,7 @@ function SubjectCard({ title, thumbnail, description, tutorName, link }) {
                     <span className="subjectCard__description" >{description}</span>
                     <div className="subjectCard__right__tutor">
                         <div className="subjectCard__right__avatar">
-                            <Avatar id="Avatar" src={header2} />
+                            <Avatar id="Avatar" src={avatarImage} />
                             <div className="tutorName">{tutorName}</div>
                         </div>
                     </div>
