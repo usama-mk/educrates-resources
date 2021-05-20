@@ -15,6 +15,11 @@
     flex-wrap: wrap;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+
 }
 
 .header__right{
@@ -26,7 +31,7 @@
     justify-content: center;
     align-items: center;
 
-    /* font-family: Rubik; */
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;

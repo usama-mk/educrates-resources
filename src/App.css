@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 .App {
   text-align: center;
   
@@ -27,4 +29,17 @@
 .welcome__message{
   color: white;
   
+}
+
+.welcome__message>h1{
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+}
+.welcome__message>h2{
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
 }

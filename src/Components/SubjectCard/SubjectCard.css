@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
 .subjectCard{
     display: flex;
     /* align-items: center; */
@@ -27,7 +30,7 @@
     height: 33px;
     overflow: auto;
     text-overflow: ellipsis;
-    font-family: Rubik;
+    font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -47,11 +50,11 @@
 .subjectCard__description{
     display: flex;
     max-width: 755px;
-    max-height: 81px;
+    max-height: 101px;
     flex-wrap: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -77,7 +80,7 @@
     margin-right: 10px;
 }
 .tutorName{
-    /* font-family: Rubik; */
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -100,7 +103,7 @@
     margin-top: 20px;
     margin-bottom: 40px;
 
-    /* font-family: Rubik; */
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;

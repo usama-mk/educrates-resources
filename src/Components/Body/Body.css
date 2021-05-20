@@ -16,7 +16,7 @@
     box-shadow: 0px 8px 30px rgba(40, 157, 210, 0.3);
     border-radius: 6px;
 
-    /* font-family: Rubik; */
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -35,7 +35,7 @@
     height: 60px;
     background: #EBEBEB;
     border-radius: 6px;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;

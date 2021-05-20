@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 .footer{
     height: 228px;
     left: 0px;
@@ -11,11 +12,11 @@
 }
 
 .footer__copyright{
-    width: 340px;
+    max-width: 350px;
     height: 21px;
     display: flex;
     flex-wrap: wrap;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -24,17 +25,18 @@
 }
 
 .footer__designedby{
-    width: 250px;
+    max-width: 250px;
     height: 21px;
     display: flex;
     flex-wrap: wrap;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     text-align: right;
     color: #E0E0E0;
+    
 }
 
 .footer__designedby>span{
