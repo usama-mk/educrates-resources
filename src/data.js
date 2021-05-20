@@ -183,14 +183,14 @@ const english = [
         year: 2,
         link: "https://toytheater.com/category/language-arts/",
         title: "Year 2 English Games",
-        description: " Year 2 Autism / ADHD friendly English Games that are focused on visual, reflective and kinesthetic learning. Easy to use and simple to navigate. "
+        description: " Educational Year 2 English language resources in the format of a game-based activity. Interactive learning that is highly recommended for students with ADHD or students with Autism who prefer Kinesthetic learning."
     },
     {
         category: ["visual", "reflective", "kinesthetic"],
         year: 2,
         link: "https://apps.apple.com/us/app/otsimo-special-education-aac/id1084723774",
         title: "Year 2 Device Learning",
-        description: " Year 2 Autism / ADHD friendly Device Learnings that are focused on visual, reflective and kinesthetic learning. Easy to use and simple to navigate. "
+        description: "Otsimo is a certified and awarded educational game application developed for individuals diagnosed with learning disorders, attention deficit, autism, down syndrome, aspergers, and other special needs."
     },
 
     {
@@ -198,42 +198,42 @@ const english = [
         year: 2,
         link: "https://app.otsimo.org/special-education?gclid=CjwKCAjwy42FBhB2EiwAJY0yQuYkoFkdxJUsE9YuvEVsOfe3JjCLaxWHcCck75KqVuzOm3OfPfv5SxoCEGIQAvD_BwE#utm_source=ad-grants&utm_medium=cpc&utm_campaign=ad-grants-debut&utm_content=autism-apps?campaignid=1916697596&adgroupid=70090526345&adid=395718843548",
         title: "Year 2 iPad Games",
-        description: "Year 2 Autism / ADHD friendly iPad Games that are focused on audio and kinesthetic learning. Easy to use and simple to navigate. "
+        description: " Otsimo | Special Education consists of more than 100 games specifically designed for autism. Created under the guidance of parents, psychologists, and special education teachers. "
     },
     {
         category: ["audio", "kinesthetic"],
         year: 2,
         link: "https://apps.apple.com/us/app/language-therapy-for-kids-mita/id1020290425",
         title: "Year 2 iPad Application",
-        description: "Year 2 Autism / ADHD friendly iPad Applications that are focused on audio and kinesthetic learning. Easy to use and simple to navigate. "
+        description: "MITA is a Language Therapy Application available on iPad or iPhone. In a 3-year clinical trial of 6,454 children with autism, language score in children who engaged with MITA has increased to levels, which were 120% higher than in children with similar initial evaluations. "
     },
     {
         category: ["audio", "kinesthetic"],
         year: 2,
         link: "https://play.google.com/store/apps/details?id=com.imagiration.mita",
         title: "Year 2 Android Application",
-        description: "Year 2 Autism / ADHD friendly Android Applications that are focused on audio and kinesthetic learning. Easy to use and simple to navigate. "
+        description: " MITA is a Language Therapy Application available on Android devices such as tablet and phone. In a 3-year clinical trial of 6,454 children with autism, language score in children who engaged with MITA has increased to levels, which were 120% higher than in children with similar initial evaluations. "
     },
     {
         category: ["audio", "kinesthetic"],
         year: 2,
         link: " https://apps.apple.com/us/app/social-story-creator-library/id588180598?ign-mpt=uo%3D8",
         title: "Year 2 iPad / iPhone Application",
-        description: "Year 2 Autism / ADHD friendly iPad / iPhone Applications that are focused on audio and kinesthetic learning. Easy to use and simple to navigate. "
+        description: " An amazing app for easily creating, sharing and printing educational social stories, visual schedules, and beautiful memories. \n This is a very valuable tool for any teacher, SLP, OT, direct care staff or parent. "
     },
     {
         category: ["audio", "kinesthetic"],
         year: 2,
         link: "https://apps.apple.com/us/app/endless-reader/id722910739",
         title: "Year 2 iPad / iPhone Application",
-        description: "Year 2 Autism / ADHD friendly iPad / iPhone Applications that are focused on audio and kinesthetic learning. Easy to use and simple to navigate. "
+        description: `This app introduces "sight words", the most commonly used words in school, library, and children's books. Kids need to recognize these words by sight in order to achieve reading fluency. Recognizing sight words is advantageous for beginning readers because many of these words have unusual spelling, cannot be sounded out using phonics knowledge, and often cannot be represented using pictures.`
     },
     {
         category: ["audio", "kinesthetic"],
         year: 2,
         link: "https://apps.apple.com/us/app/speech-blubs-language-therapy/id1544715736",
         title: "Year 2 iPad / iPhone Application",
-        description: "Year 2 Autism / ADHD friendly iPad / iPhone Applications that are focused on audio and kinesthetic learning. Easy to use and simple to navigate."
+        description: " voice-controlled speech therapy app with 3 M+ downloads that helps kids learn 1st sounds, words, & sentences. This version’s new look, helpful parent’s section, new saveable face filters, & access to the reading app READING BLUBS are a “must-have” for late-talkers, kids with ADHD, Apraxia, Autism, and Down syndrome."
     },
 
 
@@ -483,7 +483,7 @@ const maths = [
         year: 2,
         link: "https://www.bbc.co.uk/teach/school-radio/cloud-rating-1/zkgt7nb",
         title: "Year 2 Maths Resources",
-        description: "Year 2 Autism / ADHD friendly Maths resources that are focused on audio learning. Easy to use and simple to navigate. "
+        description: "Maths Audio resources that feature elements of reflective learning. \n Requirements: Students must have a pencil and paper available to write on or a device such as laptop to input their answers into. \n The process is as simple as clicking on the link and clicking on the questions tabs that are shaped as clouds. Once the question is answered by the student there is an easy to find answers section that will guide you towards the correct answer.  "
     },
 
     {
@@ -491,21 +491,21 @@ const maths = [
         year: 2,
         link: "https://www.mathplayground.com/grade_1_games.html",
         title: "Year 2 Maths Games",
-        description: " Year 2 Autism / ADHD friendly Maths Games that are focused on visual, reflective and kinesthetic learning. Easy to use and simple to navigate. "
+        description: "Educational Year 2 Maths resources in the format of a game-based activity. Interactive learning that is highly recommended for students with ADHD or students with Autism who prefer Kinesthetic learning. "
     },
     {
         category: ["visual", "reflective", "kinesthetic"],
         year: 2,
         link: "http://www.jmathpage.com/wpjmp/1st-grade-grade-1-page-1/",
         title: "Year 2 Maths Game Grade 1",
-        description: " Year 2 Autism / ADHD friendly Maths Games that are focused on visual, reflective and kinesthetic learning. Easy to use and simple to navigate."
+        description: "Educational Year 2 Maths resources in the format of a game-based activity. Interactive learning that is highly recommended for students with ADHD or students with Autism who prefer Kinesthetic learning."
     },
     {
         category: ["visual", "reflective", "kinesthetic"],
         year: 2,
         link: "https://apps.apple.com/us/app/otsimo-special-education-aac/id1084723774",
         title: "Year 2 Device Learning",
-        description: " Year 2 Autism / ADHD friendly Device Learnings are focused on visual, reflective and kinesthetic learning. Easy to use and simple to navigate. "
+        description: "Otsimo is a certified and awarded educational game application developed for individuals diagnosed with learning disorders, attention deficit, autism, down syndrome, aspergers, and other special needs."
     },
 
     {
@@ -513,7 +513,7 @@ const maths = [
         year: 2,
         link: " https://app.otsimo.org/special-education?gclid=CjwKCAjwy42FBhB2EiwAJY0yQuYkoFkdxJUsE9YuvEVsOfe3JjCLaxWHcCck75KqVuzOm3OfPfv5SxoCEGIQAvD_BwE#utm_source=ad-grants&utm_medium=cpc&utm_campaign=ad-grants-debut&utm_content=autism-apps?campaignid=1916697596&adgroupid=70090526345&adid=395718843548",
         title: "Year 2 iPad Games",
-        description: " Year 2 Autism / ADHD friendly Maths iPad Games that are focused on audio and kinesthetic learning. Easy to use and simple to navigate. "
+        description: "Otsimo | Special Education consists of more than 100 games specifically designed for autism. Created under the guidance of parents, psychologists, and special education teachers. "
     },
 
     {
@@ -521,7 +521,7 @@ const maths = [
         year: 2,
         link: "https://apps.apple.com/us/app/pop-math-lite/id303258911",
         title: "Year 2 iPad / iPhone Application",
-        description: " Year 2 Autism / ADHD friendly Maths iPad / iPhone Applications that are focused on audio and kinesthetic learning. Easy to use and simple to navigate. "
+        description: "PopMath Lite is the lite version (additions only) of the award-winning math game to practice addition, subtraction, multiplication and division. 6 pairs of bubbles with numbers float on the screen above beautiful backgrounds."
     },
 
     {
@@ -529,22 +529,22 @@ const maths = [
         year: 2,
         link: " https://www.bbc.co.uk/teach/school-radio/cloud-rating-1/zkgt7nb",
         title: "Year 2 Maths Resources",
-        description: "Year 2 Autism / ADHD friendly Maths resources that are focused on audio learning. Easy to use and simple to navigate. "
+        description: "Maths Audio resources that feature elements of reflective learning. \n Requirements: Students must have a pencil and paper available to write on or a device such as laptop to input their answers into. \n The process is as simple as clicking on the link and clicking on the questions tabs that are shaped as clouds. Once the question is answered by the student there is an easy to find answers section that will guide you towards the correct answer.  "
     },
 
     {
         category: ["visual", "reflective", "kinesthetic"],
-        year: 2,
+        year: 3,
         link: " https://www.mathplayground.com/grade_2_games.html",
-        title: "Year 2 Maths Games",
-        description: " Year 2 Autism / ADHD friendly Maths Games that are focused on visual, reflective and kinesthetic learning. Easy to use and simple to navigate."
+        title: "Year 3 Maths Games",
+        description: " Educational Year 3 Maths resources in the format of a game-based activity. Interactive learning that is highly recommended for students with ADHD or students with Autism who prefer Kinesthetic learning."
     },
     {
         category: ["visual", "reflective", "kinesthetic"],
-        year: 2,
+        year: 3,
         link: "http://www.jmathpage.com/wpjmp/start-second/",
-        title: "Year 2 Maths Games",
-        description: " Year 2 Autism / ADHD friendly Maths Games that are focused on visual, reflective and kinesthetic learning. Easy to use and simple to navigate."
+        title: "Year 3 Maths Games",
+        description: " Educational Year 3 Maths resources in the format of a game-based activity. Interactive learning that is highly recommended for students with ADHD or students with Autism who prefer Kinesthetic learning."
     },
 
     {
@@ -552,14 +552,14 @@ const maths = [
         year: 4,
         link: " https://www.bbc.co.uk/teach/school-radio/cloud-rating-3/zjy6qp3",
         title: "Year 4 Maths Resources",
-        description: "Year 4 Autism / ADHD friendly Maths resources that are focused on audio learning. Easy to use and simple to navigate."
+        description: "Maths Audio resources that feature elements of reflective learning. \n Requirements: Students must have a pencil and paper available to write on or a device such as laptop to input their answers into. \n The process is as simple as clicking on the link and clicking on the questions tabs that are shaped as clouds. Once the question is answered by the student there is an easy to find answers section that will guide you towards the correct answer. "
     },
     {
         category: ["visual", "reflective", "kinesthetic"],
         year: 4,
         link: "https://www.mathplayground.com/grade_3_games.html",
         title: "Year 4 Maths Games",
-        description: "Year 4 Autism / ADHD friendly Maths games that are focused on visual, reflective and kinesthetic learning. Easy to use and simple to navigate. "
+        description: "Educational Year 4 Maths resources in the format of a game-based activity. Interactive learning that is highly recommended for students with ADHD or students with Autism who prefer Kinesthetic learning. "
     },
 
     {
@@ -567,7 +567,7 @@ const maths = [
         year: 5,
         link: "https://www.mathplayground.com/grade_4_games.html",
         title: "Year 5 Maths Games",
-        description: "Year 5 Autism / ADHD friendly Maths games that are focused on visual, reflective and kinesthetic learning. Easy to use and simple to navigate. "
+        description: "Educational Year 5 Maths resources in the format of a game-based activity. Interactive learning that is highly recommended for students with ADHD or students with Autism who prefer Kinesthetic learning."
     },
 
     {
@@ -575,7 +575,7 @@ const maths = [
         year: 6,
         link: "https://www.mathplayground.com/grade_5_games.html",
         title: "Year 6 Maths Games",
-        description: "Year 6 Autism / ADHD friendly Maths games that are focused on visual, reflective and kinesthetic learning. Easy to use and simple to navigate. "
+        description: "Educational Year 6 Maths resources in the format of a game-based activity. Interactive learning that is highly recommended for students with ADHD or students with Autism who prefer Kinesthetic learning."
     },
 
     {
@@ -583,7 +583,7 @@ const maths = [
         year: 7,
         link: "https://www.mathplayground.com/grade_6_games.html",
         title: "Year 7 Maths Games",
-        description: "Year 7 Autism / ADHD friendly Maths games that are focused on visual, reflective and kinesthetic learning. Easy to use and simple to navigate."
+        description: "Educational Year 7 Maths resources in the format of a game-based activity. Interactive learning that is highly recommended for students with ADHD or students with Autism who prefer Kinesthetic learning."
     },
 
 
