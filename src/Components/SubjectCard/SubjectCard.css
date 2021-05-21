@@ -178,7 +178,7 @@ a:link, a:visited {
 
 @media screen and (max-width: 465px) {
     .subjectCard{
-         margin: 20px;
+         margin: 10px;
          
     }
     
@@ -203,7 +203,7 @@ a:link, a:visited {
     
     .subjectCard__description{
         
-        max-width: 290px;
+        max-width: 220px;
         max-height: 101px;
         font-size: 13px;
         line-height: 27px;

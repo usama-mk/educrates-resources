@@ -1,21 +1,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+
 .App {
   text-align: center;
-  
-   
+   overflow: hidden;
 }
 
-
+/* .header__wrapper{
+  background-image: url('./assets/rec4.png');
+} */
 .header__wrapper{
   margin: 0 auto;  
-  /* background: lightblue; */
+  padding-top: 10px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #094B35; 
-  outline-width: 0;
-  overflow :hidden;
+  margin-bottom: 90px;
 }
+
+
 
 .header__wrapper:after {
   content: "";
@@ -23,12 +27,14 @@
   bottom: 0;
   right: -7%;
   left: -7%;
-  height: 120px;
+  height: 70px; /*120*/
   background: #fff;
-  -webkit-clip-path: ellipse(50% 130% at 52% 120%);
-  clip-path: ellipse(50% 130% at 50% 100%);
+  -webkit-clip-path: ellipse(47% 130% at 52% 120%);
+  clip-path: ellipse(47% 130% at 50% 100%);
+    
   
 } 
+
 .welcome__message{
   color: white;
   

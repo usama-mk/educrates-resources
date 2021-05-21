@@ -18,6 +18,7 @@ function App() {
       </div>
 
       <HeaderCard/>
+     
       </div>
       
       {/* tabs body */}
