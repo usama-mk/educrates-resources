@@ -10,6 +10,7 @@ function FilteredHistoryGeography({seeAll, historyGeography}) {
     const selectedTabKinesthetic = useSelector(state => state.selectedTabKinesthetic)
     const selectedTabReflective = useSelector(state => state.selectedTabReflective)
 
+    // Each variables contains the filtered out category that is selected
     var filteredVisualsHistoryGeography = historyGeography.filter(function (lesson) {
         return lesson.category.includes('visual')
 
@@ -31,6 +32,7 @@ function FilteredHistoryGeography({seeAll, historyGeography}) {
     });
 
     return (
+                // We check if seeAll is true then show all subjectCard components in historyGeography but if any of the category is selected the show the selected category subjectCard components only
         <div>
              {
                 seeAll ? (!selectedTabAuditory ?
@@ -85,6 +87,7 @@ function FilteredHistoryGeography({seeAll, historyGeography}) {
                     })
                 )
                     :
+                    // If seeAll is false the we show only 3 of the subjectCard components in a categorized way
                     (!selectedTabAuditory ?
                         !selectedTabVisual ?
                             !selectedTabKinesthetic ?

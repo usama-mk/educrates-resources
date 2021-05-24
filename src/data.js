@@ -744,3 +744,44 @@ const maths = [
 ]
 
 
+// TEACHERS
+
+export const mathematicsTeachers=[
+    {
+        thumbnail: resourcesM17,
+        category: ["music"],
+        link: "",
+        title: "Georgia P",
+        subTitle: "Creative, Engaging and Enthusiatic Maths and 11+ Tutor ",
+        description: `I am a firm believer that students should be taught "how to think, not what to think" so I teach students thinking skills, developing deep understanding of topics and skills for the future. Having taught at a variety of comprehensive and grammar schools in the county and with experience with SEN I am in a position to educate students from most educational backgrounds.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "science", "english", "music"],
+        link: "",
+        title: "Josh Ron W",
+        subTitle: "Maths and chemistry tutor GCSE and A level",
+        description: `I am a qualified teacher with over 20 years teaching experience. I have taught in state secondary schools in Bristol and in the private sector. My teaching experience includes working with special needs young people with learning difficulties and autism. `,
+        ratings: "5.0",
+        reviews: "10"
+    },
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "science", "english", "music"],
+        link: "",
+        title: "James M ",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+]
+
+
+export const page=[
+    {
+        teachers: false
+    }
+]

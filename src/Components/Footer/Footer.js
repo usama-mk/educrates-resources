@@ -4,6 +4,7 @@ import './Footer.css'
 
 function Footer() {
     return (
+        // Displays the content at the end of the web app
         <div className="footer">
             <div className="footer__copyright">
             Copyright 2021. All rights reserved by us.

@@ -50,6 +50,12 @@
 
 }
 
+.tabsIcon{
+     margin-right: 5px;
+     padding-right: 5px;
+       
+}
+
 @media screen and (max-width: 750px) {
     .tab__button__selected{
         width: 130px;

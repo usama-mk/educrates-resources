@@ -11,6 +11,7 @@ function FilteredEnglish({ seeAll, english }) {
     const selectedTabKinesthetic = useSelector(state => state.selectedTabKinesthetic)
     const selectedTabReflective = useSelector(state => state.selectedTabReflective)
 
+    // Each variables contains the filtered out category that is selected
 
     var filteredVisualsEnglish = english.filter(function (lesson) {
         return lesson.category.includes('visual')
@@ -34,6 +35,7 @@ function FilteredEnglish({ seeAll, english }) {
 
 
     return (
+                // We check if seeAll is true then show all subjectCard components in english but if any of the category is selected the show the selected category subjectCard components only
         <div className="filteredE">
             { seeAll ? (!selectedTabAuditory ?
                 !selectedTabVisual ?
@@ -87,6 +89,7 @@ function FilteredEnglish({ seeAll, english }) {
                 })
             )
                 :
+                    // If seeAll is false the we show only 3 of the subjectCard components in a categorized way
                 (!selectedTabAuditory ?
                     !selectedTabVisual ?
                         !selectedTabKinesthetic ?

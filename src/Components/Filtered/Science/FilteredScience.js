@@ -9,6 +9,8 @@ function FilteredScience({seeAll, science}) {
     const selectedTabKinesthetic = useSelector(state => state.selectedTabKinesthetic)
     const selectedTabReflective = useSelector(state => state.selectedTabReflective)
 
+    
+    // Each variables contains the filtered out category that is selected
     var filteredVisualsScience = science.filter(function (lesson) {
         return lesson.category.includes('visual')
 
@@ -32,6 +34,7 @@ function FilteredScience({seeAll, science}) {
     return (
         <div>
             {
+                // We check if seeAll is true then show all subjectCard components in science but if any of the category is selected the show the selected category subjectCard components only
                 seeAll ? (!selectedTabAuditory ?
                     !selectedTabVisual ?
                         !selectedTabKinesthetic ?
@@ -84,6 +87,7 @@ function FilteredScience({seeAll, science}) {
                     })
                 )
                     :
+                    // If seeAll is false the we show only 3 of the subjectCard components in a categorized way
                     (!selectedTabAuditory ?
                         !selectedTabVisual ?
                             !selectedTabKinesthetic ?

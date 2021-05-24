@@ -3,26 +3,27 @@ import logo from '../../assets/logo.svg'
 import './Header.css'
 
 
-function Header() {
+function Header({home, social, teachers, aboutUs}) {
     return (
+      // Header component having logo and other buttons
         <div className="header">
         <img src={logo} alt="logo" />
 
         <div className="header__mid">
-          <div className="header__mid__home pointer selectedHeader">
+          <div className={`header__mid__home pointer ${home?'selectedHeader':""} `}>
             Home
           </div>
 
-          <div className="header__mid__social pointer">
+          <div className={`header__mid__home pointer ${social?'selectedHeader':""} `}>
             Social
           </div>
 
-          <div className="header__mid__resources pointer">
-            Resources
+          <div className={`header__mid__home pointer ${teachers?'selectedHeader':""} `}>
+            Teachers
           </div>
 
-          <div className="header__mid__foundation pointer">
-            Foundation
+          <div className={`header__mid__home pointer ${aboutUs?'selectedHeader':""} `}>
+            About Us
           </div>
         </div>
 

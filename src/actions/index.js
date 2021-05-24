@@ -25,3 +25,38 @@ export const toggleReflective=(pay)=>{
         payload: pay
     };
 }
+
+export const toggleEnglishTeacher=(pay)=>{
+    return{
+        type: 'TOGGLE_ENGLISH_TEACHER',
+        payload: pay
+    };
+}
+
+export const toggleMathsTeacher=(pay)=>{
+    return{
+        type: 'TOGGLE_MATHS_TEACHER',
+        payload: pay
+    };
+}
+
+export const toggleMusicTeacher=(pay)=>{
+    return{
+        type: 'TOGGLE_MUSIC_TEACHER',
+        payload: pay
+    };
+}
+
+export const toggleScienceTeacher=(pay)=>{
+    return{
+        type: 'TOGGLE_SCIENCE_TEACHER',
+        payload: pay
+    };
+}
+
+export const toggleTeachersPage=(pay)=>{
+    return{
+        type: 'TOGGLE_TEACHERS_PAGE',
+        payload: pay
+    };
+}

@@ -1,32 +1,21 @@
 import './App.css';
-import logo from './assets/logo.svg'
 import Body from './Components/Body/Body';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import HeaderCard from './Components/HeaderCard/HeaderCard';
+import Home from './Pages/Home/Home';
+import Teachers from './Pages/Teachers/Teachers';
 
 function App() {
   return (
     <div className="App">
-      {/*Header wrapper  */}
-      {/* Header */}
-      <div className="header__wrapper">
-      <Header/>
-      <div className="welcome__message">
-        <h2>Welcome to</h2>
-        <h1>Educrates Resources</h1>
-      </div>
+     {/* <Home/> */}
+     <Teachers/>
 
-      <HeaderCard/>
-     
-      </div>
-      
-      {/* tabs body */}
-      <Body/>
 
-      {/* footer */}
-      <Footer/>
-     </div>
+      {/* footer of the app, displayed at the very bottom */}
+      <Footer />
+    </div>
   );
 }
 

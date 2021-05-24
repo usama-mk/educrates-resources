@@ -7,10 +7,13 @@ import { createStore } from 'redux';
 import allReducers from './reducers';
 import { Provider } from 'react-redux';
 
-
+// created global store for state management using Redux
 const store =createStore(allReducers,
   window.__REDUX_DEVTOOLS_EXTENSION__ & window.__REDUX_DEVTOOLS_EXTENSION__()
   );
+
+  // Passing the global store to the whole app so that each component can have access to the data provided
+  // store is paased to the app using Provider
 ReactDOM.render(
   <Provider store={store}>
     <React.StrictMode>
