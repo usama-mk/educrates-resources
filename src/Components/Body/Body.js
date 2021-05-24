@@ -184,6 +184,7 @@ function Body({home, social, teachers, aboutUs}) {
             <SubjectSection teachers={true} subject="Mathematics teachers" selectedTabVisual={selectedTabVisual} selectedTabAuditory={selectedTabAuditory} selectedTabKinesthetic={selectedTabKinesthetic} selectedTabReflective={selectedTabReflective} />
             <SubjectSection teachers={true} subject="English teachers" />
             <SubjectSection teachers={true} subject="Science teachers" />
+            <SubjectSection teachers={true} subject="Music teachers" />
              
              
              

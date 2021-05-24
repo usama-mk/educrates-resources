@@ -5,13 +5,18 @@ import FilteredEnglish from '../Filtered/English/FilteredEnglish'
 import FilteredMaths from '../Filtered/Maths/FilteredMaths'
 import FilteredScience from '../Filtered/Science/FilteredScience'
 import FilteredHistoryGeography from '../Filtered/FilteredHistoryGeography/FilteredHistoryGeography'
-import { english, historyGeography, maths, science, mathematicsTeachers } from '../../data'
+import { english, historyGeography, maths, science, mathematicsTeachers, scienceTeachers, englishTeachers, musicTeachers } from '../../data'
 import SubjectCard from '../SubjectCard/SubjectCard'
 import mathsLogo from '../../assets/teachersSubjectLogos/mathsLogo.svg'
 import englishLogo from '../../assets/teachersSubjectLogos/englishLogo.svg'
 import scienceLogo from '../../assets/teachersSubjectLogos/scienceLogo.svg'
+import musicLogo from '../../assets/teachersSubjectLogos/musicLogo.png'
 import FilteredMathsTeachers from '../Filtered/MathsTeachers/FilteredMathsTeachers'
 import { useSelector } from 'react-redux'
+import FilteredScienceTeachers from '../Filtered/ScienceTeachers/FilteredScienceTeachers'
+import FilteredEnglishTeachers from '../Filtered/EnglishTeachers/FilteredEnglishTeachers'
+import FilteredMusicTeachers from '../Filtered/MusicTeachers/FilteredMusicTeachers'
+
 
 function SubjectSection({subject }) {
     const [seeAll, setSeeAll] = useState(false)
@@ -25,7 +30,7 @@ function SubjectSection({subject }) {
         <div className="subjectSection">
             <div className="subjectSection__header">
                 <h1>{subject}
-                {teachers? <img className="subjectLogo" src={(subject=="Mathematics teachers")?mathsLogo:(subject=="English teachers")?englishLogo:(subject=="Science teachers")?scienceLogo:""} /> :""}
+                {teachers? <img className="subjectLogo" src={(subject=="Mathematics teachers")?mathsLogo:(subject=="English teachers")?englishLogo:(subject=="Science teachers")?scienceLogo:(subject=="Music teachers")?musicLogo:""} /> :""}
                 </h1>
                 <div onClick={handleseeAll} className="seeAll__button pointer">
                     {seeAll ? `SEE LESS <` : ` SEE ALL >`}
@@ -79,6 +84,24 @@ function SubjectSection({subject }) {
             {/* FILTERED TEACHERS */}
             {(subject == "Mathematics teachers") ?
                 <FilteredMathsTeachers subject="mathematicsTeachers" seeAll={seeAll} mathematicsTeachers={mathematicsTeachers} />
+                :
+                ""
+            }
+
+            {(subject == "Science teachers") ?
+                <FilteredScienceTeachers subject="scienceTeachers" seeAll={seeAll} scienceTeachers={scienceTeachers} />
+                :
+                ""
+            }
+
+            {(subject == "English teachers") ?
+                <FilteredEnglishTeachers subject="englishTeachers" seeAll={seeAll} englishTeachers={englishTeachers} />
+                :
+                ""
+            }
+
+            {(subject == "Music teachers") ?
+                <FilteredMusicTeachers subject="musicTeachers" seeAll={seeAll} musicTeachers={musicTeachers} />
                 :
                 ""
             }

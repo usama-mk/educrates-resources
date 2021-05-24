@@ -746,11 +746,115 @@ const maths = [
 
 // TEACHERS
 
+export const scienceTeachers=[
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science"], //teaches science and maths
+        link: "https://tutorful.co.uk/tutors/x454n8vv ",
+        title: "Georgia P",
+        subTitle: "Creative, Engaging and Enthusiatic Maths and 11+ Tutor ",
+        description: `I am a firm believer that students should be taught "how to think, not what to think" so I teach students thinking skills, developing deep understanding of topics and skills for the future. Having taught at a variety of comprehensive and grammar schools in the county and with experience with SEN I am in a position to educate students from most educational backgrounds.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science"],
+        link: "https://tutorful.co.uk/tutors/2by8rgxo ",
+        title: "Josh Ron W",
+        subTitle: "Maths and chemistry tutor GCSE and A level",
+        description: `I am a qualified teacher with over 20 years teaching experience. I have taught in state secondary schools in Bristol and in the private sector. My teaching experience includes working with special needs young people with learning difficulties and autism. `,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science"],
+        link: "https://tutorful.co.uk/tutors/eq6q56pl ",
+        title: "Meera P",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science"],
+        link: "https://tutorful.co.uk/tutors/r6bmldpe",
+        title: "Waseem A",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I have been offering tuition for primary school, secondary school and A-levels, as well as vocational subjects, for the full duration of my career in tutoring. I love science and English in particular but I am very proficient in maths. I have experience tutoring students of all ages and levels, as well as SEN students, if you require any more information about how I tailor lessons please just ask`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science", "music"], 
+        link: "https://tutorful.co.uk/tutors/7yj2n26b",
+        title: "Kerry A",
+        subTitle: "Creative, Engaging and Enthusiatic Maths and 11+ Tutor ",
+        description: `I am a firm believer that students should be taught "how to think, not what to think" so I teach students thinking skills, developing deep understanding of topics and skills for the future. Having taught at a variety of comprehensive and grammar schools in the county and with experience with SEN I am in a position to educate students from most educational backgrounds.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "science"],
+        link: "https://tutorful.co.uk/tutors/9xry3gva",
+        title: "Kasia M",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I have been offering tuition for primary school, secondary school and A-levels, as well as vocational subjects, for the full duration of my career in tutoring. I love science and English in particular but I am very proficient in maths. I have experience tutoring students of all ages and levels, as well as SEN students, if you require any more information about how I tailor lessons please just ask`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["science"],
+        link: "https://tutorful.co.uk/tutors/be3xdmgl",
+        title: "Molly B",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I have been offering tuition for primary school, secondary school and A-levels, as well as vocational subjects, for the full duration of my career in tutoring. I love science and English in particular but I am very proficient in maths. I have experience tutoring students of all ages and levels, as well as SEN students, if you require any more information about how I tailor lessons please just ask`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science"],
+        link: "https://tutorful.co.uk/tutors/nredklxq",
+        title: "Hayley N",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I have been offering tuition for primary school, secondary school and A-levels, as well as vocational subjects, for the full duration of my career in tutoring. I love science and English in particular but I am very proficient in maths. I have experience tutoring students of all ages and levels, as well as SEN students, if you require any more information about how I tailor lessons please just ask`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+
+     
+]
+
+
 export const mathematicsTeachers=[
     {
         thumbnail: resourcesM17,
-        category: ["music"],
-        link: "",
+        category: ["maths", "english", "science", "music"], 
+        link: "https://tutorful.co.uk/tutors/7yj2n26b",
+        title: "Kerry A",
+        subTitle: "Creative, Engaging and Enthusiatic Maths and 11+ Tutor ",
+        description: `I am a firm believer that students should be taught "how to think, not what to think" so I teach students thinking skills, developing deep understanding of topics and skills for the future. Having taught at a variety of comprehensive and grammar schools in the county and with experience with SEN I am in a position to educate students from most educational backgrounds.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science"], //teaches science and maths
+        link: "https://tutorful.co.uk/tutors/x454n8vv ",
         title: "Georgia P",
         subTitle: "Creative, Engaging and Enthusiatic Maths and 11+ Tutor ",
         description: `I am a firm believer that students should be taught "how to think, not what to think" so I teach students thinking skills, developing deep understanding of topics and skills for the future. Having taught at a variety of comprehensive and grammar schools in the county and with experience with SEN I am in a position to educate students from most educational backgrounds.`,
@@ -759,8 +863,8 @@ export const mathematicsTeachers=[
     },
     {
         thumbnail: resourcesM17,
-        category: ["maths", "science", "english", "music"],
-        link: "",
+        category: ["maths", "science"],
+        link: "https://tutorful.co.uk/tutors/2by8rgxo ",
         title: "Josh Ron W",
         subTitle: "Maths and chemistry tutor GCSE and A level",
         description: `I am a qualified teacher with over 20 years teaching experience. I have taught in state secondary schools in Bristol and in the private sector. My teaching experience includes working with special needs young people with learning difficulties and autism. `,
@@ -769,9 +873,108 @@ export const mathematicsTeachers=[
     },
     {
         thumbnail: resourcesM17,
-        category: ["maths", "science", "english", "music"],
-        link: "",
-        title: "James M ",
+        category: ["maths", "english", "science"],
+        link: "https://tutorful.co.uk/tutors/eq6q56pl ",
+        title: "Meera P",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english"],
+        link: "https://tutorful.co.uk/tutors/3y4pxppg",
+        title: "Sophie G",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english"],
+        link: "https://tutorful.co.uk/tutors/mpjqrrm2",
+        title: "Anne K",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science"],
+        link: "https://tutorful.co.uk/tutors/r6bmldpe",
+        title: "Waseem A",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I have been offering tuition for primary school, secondary school and A-levels, as well as vocational subjects, for the full duration of my career in tutoring. I love science and English in particular but I am very proficient in maths. I have experience tutoring students of all ages and levels, as well as SEN students, if you require any more information about how I tailor lessons please just ask`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english"],
+        link: "https://tutorful.co.uk/tutors/kpxl6mxp",
+        title: "Daniel H",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I have been offering tuition for primary school, secondary school and A-levels, as well as vocational subjects, for the full duration of my career in tutoring. I love science and English in particular but I am very proficient in maths. I have experience tutoring students of all ages and levels, as well as SEN students, if you require any more information about how I tailor lessons please just ask`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "science"],
+        link: "https://tutorful.co.uk/tutors/9xry3gva",
+        title: "Kasia M",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I have been offering tuition for primary school, secondary school and A-levels, as well as vocational subjects, for the full duration of my career in tutoring. I love science and English in particular but I am very proficient in maths. I have experience tutoring students of all ages and levels, as well as SEN students, if you require any more information about how I tailor lessons please just ask`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "science"],
+        link: "https://tutorful.co.uk/tutors/95walxnr",
+        title: "Wendy C",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I have been offering tuition for primary school, secondary school and A-levels, as well as vocational subjects, for the full duration of my career in tutoring. I love science and English in particular but I am very proficient in maths. I have experience tutoring students of all ages and levels, as well as SEN students, if you require any more information about how I tailor lessons please just ask`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+    
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science"],
+        link: "https://tutorful.co.uk/tutors/nredklxq",
+        title: "Hayley N",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I have been offering tuition for primary school, secondary school and A-levels, as well as vocational subjects, for the full duration of my career in tutoring. I love science and English in particular but I am very proficient in maths. I have experience tutoring students of all ages and levels, as well as SEN students, if you require any more information about how I tailor lessons please just ask`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english"], 
+        link: "https://tutorful.co.uk/tutors/x454n8vv ",
+        title: "John M",
+        subTitle: "Creative, Engaging and Enthusiatic Maths and 11+ Tutor ",
+        description: `I am a firm believer that students should be taught "how to think, not what to think" so I teach students thinking skills, developing deep understanding of topics and skills for the future. Having taught at a variety of comprehensive and grammar schools in the county and with experience with SEN I am in a position to educate students from most educational backgrounds.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english"],
+        link: "https://tutorful.co.uk/tutors/emd2kqkl",
+        title: "Michael C",
         subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
         description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
         ratings: "5.0",
@@ -779,9 +982,219 @@ export const mathematicsTeachers=[
     },
 ]
 
+export const englishTeachers=[
+    
 
-export const page=[
     {
-        teachers: false
-    }
+        thumbnail: resourcesM17,
+        category: ["maths", "english"],
+        link: "https://tutorful.co.uk/tutors/3y4pxppg",
+        title: "Sophie G",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english"],
+        link: "https://tutorful.co.uk/tutors/mpjqrrm2",
+        title: "Anne K",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science"],
+        link: "https://tutorful.co.uk/tutors/r6bmldpe",
+        title: "Waseem A",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I have been offering tuition for primary school, secondary school and A-levels, as well as vocational subjects, for the full duration of my career in tutoring. I love science and English in particular but I am very proficient in maths. I have experience tutoring students of all ages and levels, as well as SEN students, if you require any more information about how I tailor lessons please just ask`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english"],
+        link: "https://tutorful.co.uk/tutors/kpxl6mxp",
+        title: "Daniel H",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I have been offering tuition for primary school, secondary school and A-levels, as well as vocational subjects, for the full duration of my career in tutoring. I love science and English in particular but I am very proficient in maths. I have experience tutoring students of all ages and levels, as well as SEN students, if you require any more information about how I tailor lessons please just ask`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science", "music"], //teaches science and maths
+        link: "https://tutorful.co.uk/tutors/7yj2n26b",
+        title: "Kerry A",
+        subTitle: "Creative, Engaging and Enthusiatic Maths and 11+ Tutor ",
+        description: `I am a firm believer that students should be taught "how to think, not what to think" so I teach students thinking skills, developing deep understanding of topics and skills for the future. Having taught at a variety of comprehensive and grammar schools in the county and with experience with SEN I am in a position to educate students from most educational backgrounds.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science"],
+        link: "https://tutorful.co.uk/tutors/nredklxq",
+        title: "Hayley N",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I have been offering tuition for primary school, secondary school and A-levels, as well as vocational subjects, for the full duration of my career in tutoring. I love science and English in particular but I am very proficient in maths. I have experience tutoring students of all ages and levels, as well as SEN students, if you require any more information about how I tailor lessons please just ask`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+    {
+        thumbnail: resourcesM17,
+        category: ["english"], 
+        link: "https://tutorful.co.uk/tutors/23go5kbd",
+        title: "Cody M",
+        subTitle: "Creative, Engaging and Enthusiatic Maths and 11+ Tutor ",
+        description: `I am a firm believer that students should be taught "how to think, not what to think" so I teach students thinking skills, developing deep understanding of topics and skills for the future. Having taught at a variety of comprehensive and grammar schools in the county and with experience with SEN I am in a position to educate students from most educational backgrounds.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english"], 
+        link: "https://tutorful.co.uk/tutors/x454n8vv ",
+        title: "John M",
+        subTitle: "Creative, Engaging and Enthusiatic Maths and 11+ Tutor ",
+        description: `I am a firm believer that students should be taught "how to think, not what to think" so I teach students thinking skills, developing deep understanding of topics and skills for the future. Having taught at a variety of comprehensive and grammar schools in the county and with experience with SEN I am in a position to educate students from most educational backgrounds.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english"],
+        link: "https://tutorful.co.uk/tutors/emd2kqkl",
+        title: "Michael C",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science"], //teaches science,english and maths
+        link: "https://tutorful.co.uk/tutors/x454n8vv ",
+        title: "Georgia P",
+        subTitle: "Creative, Engaging and Enthusiatic Maths and 11+ Tutor ",
+        description: `I am a firm believer that students should be taught "how to think, not what to think" so I teach students thinking skills, developing deep understanding of topics and skills for the future. Having taught at a variety of comprehensive and grammar schools in the county and with experience with SEN I am in a position to educate students from most educational backgrounds.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+    
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science"],
+        link: "https://tutorful.co.uk/tutors/eq6q56pl ",
+        title: "Meera P",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    
+]
+
+
+export const musicTeachers=[
+
+    {
+        thumbnail: resourcesM17,
+        category: ["music"],
+        link: "https://tutorful.co.uk/tutors/djbn88kp",
+        title: "James S",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["music"],
+        link: "https://tutorful.co.uk/tutors/yxqnlp6r",
+        title: "Faye P",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["music"],
+        link: "https://tutorful.co.uk/tutors/glqr2l3l",
+        title: "Tom C",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["music"],
+        link: "https://tutorful.co.uk/tutors/zmvdom28",
+        title: "Charlie R",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+    {
+        thumbnail: resourcesM17,
+        category: ["music"],
+        link: "https://tutorful.co.uk/tutors/j3mvnq64",
+        title: "Stephen C",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+
+    {
+        thumbnail: resourcesM17,
+        category: ["maths", "english", "science", "music"], 
+        link: "https://tutorful.co.uk/tutors/7yj2n26b",
+        title: "Kerry A",
+        subTitle: "Creative, Engaging and Enthusiatic Maths and 11+ Tutor ",
+        description: `I am a firm believer that students should be taught "how to think, not what to think" so I teach students thinking skills, developing deep understanding of topics and skills for the future. Having taught at a variety of comprehensive and grammar schools in the county and with experience with SEN I am in a position to educate students from most educational backgrounds.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["music"],
+        link: "https://tutorful.co.uk/tutors/e6rev8lw",
+        title: "Simon R",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
+
+    {
+        thumbnail: resourcesM17,
+        category: ["music"],
+        link: "https://tutorful.co.uk/tutors/oadv4d58",
+        title: "Jonathan W",
+        subTitle: "Highest Rated | GCSE & A Level | Maths Tutor",
+        description: `I am a very engaging and enthusiastic tutor who is devoted to ensuring that you/your child receives the utmost quality in understanding the areas of Maths and Computer Science. I specifically tackle your weaknesses and mold them into your strengths so you can achieve your full potential! I have experience with all age groups and backgrounds and have often taught some of the teachers that may teach you in schools.`,
+        ratings: "5.0",
+        reviews: "10"
+    },
 ]

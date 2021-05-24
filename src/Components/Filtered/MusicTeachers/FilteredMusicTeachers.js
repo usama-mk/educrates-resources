@@ -1,32 +1,31 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import thumbnail from '../../../assets/header1.png'
 import SubjectCard from '../../SubjectCard/SubjectCard';
-import './FilteredMathsTeachers.css'
 
-function FilteredMathsTeachers({seeAll, mathematicsTeachers}) {
+
+function FilteredMusicTeachers({seeAll, musicTeachers}) {
     
     const selectedTabMaths = useSelector(state => state.selectedTabMaths)
     const selectedTabScience = useSelector(state => state.selectedTabScience)
     const selectedTabEnglish = useSelector(state => state.selectedTabEnglish)
     const selectedTabMusic = useSelector(state => state.selectedTabMusic)
     
-    var filteredMusic = mathematicsTeachers.filter(function (lesson) {
+    var filteredMusic = musicTeachers.filter(function (lesson) {
         return lesson.category.includes('music')
 
     });
 
-    var filteredEnglish = mathematicsTeachers.filter(function (lesson) {
+    var filteredEnglish = musicTeachers.filter(function (lesson) {
         return lesson.category.includes('english')
 
     });
 
-    var filteredScience = mathematicsTeachers.filter(function (lesson) {
+    var filteredScience = musicTeachers.filter(function (lesson) {
         return lesson.category.includes('science')
 
     });
 
-    var filteredMaths = mathematicsTeachers.filter(function (lesson) {
+    var filteredMaths = musicTeachers.filter(function (lesson) {
         return lesson.category.includes('maths')
     });
 
@@ -37,7 +36,7 @@ function FilteredMathsTeachers({seeAll, mathematicsTeachers}) {
                     !selectedTabScience ?
                         !selectedTabEnglish ?
                             !selectedTabMusic ?
-                                mathematicsTeachers.map((mathCard) => {
+                            musicTeachers.map((mathCard) => {
 
                                     return (
                                         <SubjectCard teacher={true} title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} link={mathCard.link}
@@ -95,7 +94,7 @@ function FilteredMathsTeachers({seeAll, mathematicsTeachers}) {
                         !selectedTabScience ?
                             !selectedTabEnglish ?
                                 !selectedTabMusic ?
-                                    mathematicsTeachers.slice(0, 3).map((mathCard) => {
+                                musicTeachers.slice(0, 3).map((mathCard) => {
 
                                         return (
                                             <SubjectCard teacher={true} title={mathCard.title} thumbnail={mathCard.thumbnail} description={mathCard.description} link={mathCard.link}
@@ -158,4 +157,4 @@ function FilteredMathsTeachers({seeAll, mathematicsTeachers}) {
     )
 }
 
-export default FilteredMathsTeachers
+export default FilteredMusicTeachers
