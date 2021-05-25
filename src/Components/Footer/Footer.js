@@ -16,7 +16,7 @@ function Footer() {
 
             <div className="footer__designedby">
             Designed by 
-           <span>{  `CreativePeoples`}</span>
+           <span>{  `Aaka`}</span>
             </div>
         </div>
     )

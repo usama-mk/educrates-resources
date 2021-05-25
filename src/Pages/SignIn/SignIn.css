@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.signIn{
+    background-color: #094B35;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.signinup__back{
+    padding: 60px 50px;
+    display: flex;
+}
+
+.signInForm{
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+    align-items: column;
+    
+}
+
+.signInForm__heading{
+    color: #DADADA;
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    padding-left: 10px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #DADADA;
+    opacity: 1; /* Firefox */
+  }
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #DADADA;
+  }
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #DADADA;
+  }
+.email{
+    display: flex;
+    margin: 20px 10px;
+    
+}
+.email> input{
+    outline-width: 0;
+    border: 2px solid #000000;;
+    padding: 17px 17px;
+    margin: 0 5px;
+    background-color: #094B35;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    width: 100%;
+}
+
+.loginButton{
+    background: #000000;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: white;
+    padding: 20px;
+
+        
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 20px 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}

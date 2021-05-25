@@ -1,0 +1,37 @@
+.loginRegister{
+    background-color: #094B35;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.loginRegister__Buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button{
+    margin: 10px;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    padding: 20px 60px;
+    color: white;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.register{
+    background-color: black;
+}

@@ -6,6 +6,7 @@ import header1 from '../../assets/header1.png'
 import header2 from '../../assets/header2.png'
 import header3 from '../../assets/header3.png'
 import rec11 from '../../assets/rec11.png'
+import Footer from '../../Components/Footer/Footer';
 
 function Home() {
     return (
@@ -28,6 +29,9 @@ function Home() {
             {/* body of the entire app starting from the tab button */}
             <Body home={true}/>
 
+
+             {/* footer of the app, displayed at the very bottom */}
+            <Footer />
         </div>
     )
 }

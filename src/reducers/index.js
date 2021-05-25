@@ -8,6 +8,7 @@ import selectedTabReflectiveReducer from "./selectedTabReflective";
 import selectedTabScienceReducer from "./selectedTabScience";
 import selectedTabVisualReducer from "./selectedTabVisual";
 import teachersPageStateReducer from "./teachersPageState";
+import userReducer from "./user";
 
 const allReducers= combineReducers({
     selectedTabAuditory: selectedTabAuditoryReducer,
@@ -18,7 +19,8 @@ const allReducers= combineReducers({
     selectedTabMusic: selectedTabMusicReducer,
     selectedTabScience: selectedTabScienceReducer,
     selectedTabEnglish: selectedTabEnglishReducer,
-    teachersPage: teachersPageStateReducer
+    teachersPage: teachersPageStateReducer,
+    user: userReducer
 });
 
 export default allReducers;

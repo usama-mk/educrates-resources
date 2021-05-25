@@ -60,3 +60,10 @@ export const toggleTeachersPage=(pay)=>{
         payload: pay
     };
 }
+
+export const setUser=(pay)=>{
+    return{
+        type: 'SET_USER',
+        payload: pay
+    };
+}
