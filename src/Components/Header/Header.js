@@ -48,10 +48,6 @@ function Header({ home, social, teachers, aboutUs }) {
           <Link to='/' style={{ textDecoration: 'none', color: home ? 'white' : 'lightGrey' }}> Home </Link>
         </div>
 
-        <div className={`header__mid__home pointer ${social ? 'selectedHeader' : ""} `}>
-          Social
-          </div>
-
 
         <div className={`header__mid__home pointer ${teachers ? 'selectedHeader' : ""} `}>
           <Link to='/teachers' style={{ textDecoration: 'none', color: teachers ? 'white' : 'lightGrey' }}> Teachers </Link>
@@ -59,7 +55,7 @@ function Header({ home, social, teachers, aboutUs }) {
 
 
         <div className={`header__mid__home pointer ${aboutUs ? 'selectedHeader' : ""} `}>
-          About Us
+        <Link to='/aboutus' style={{ textDecoration: 'none', color: aboutUs ? 'white' : 'lightGrey' }}> About Us </Link>
           </div>
       </div>
 

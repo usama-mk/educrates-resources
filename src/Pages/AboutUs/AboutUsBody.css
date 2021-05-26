@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'ComicSansMS3';
+    src: local('ComicSansMS3'), url(../../assets/comic-sans-ms/ComicSansMS3.ttf) format('ttf');
+  }
+.aboutUsBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px;
+}
+
+.aboutUsBody>div{
+    margin: 10px;
+}
+
+.aboutUsPara{
+    font-family: 'ComicSansMS3';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: black;
+}
+
+.aboutUsParaTwo{
+    padding-top: 70px;
+}
+
+.aboutUsNavigation{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.about__Nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__NavSection{
+    display: flex;
+    background-color: #E0E0E0;
+    border-radius: 6px;
+    max-width: 200px;
+    max-height: 60px;
+    padding: 11px 12px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.nav__text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+   
+    color: #094B35;
+}
+
+.nav__access{
+    max-width: 178px;
+    max-height: 54px;
+    background: #41C1BA;
+    border-radius: 5px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 8px 18px;
+    color: #FFFFFF;
+}

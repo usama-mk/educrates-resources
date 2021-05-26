@@ -6,9 +6,11 @@ import './LoginRegister.css'
 function LoginRegister() {
     return (
         <div className='loginRegister'>
+              <Link to='/' style={{ textDecoration: 'none', color: 'white' }}>
             <div className="loginRegister__logo">
                 <img src={logo}  alt="logo" max-width="377px" height="200px"/>
             </div>
+            </Link>
 
             <div className="loginRegister__Buttons">
                 <Link to='/signin'style={{ textDecoration: 'none', color: 'white' }} >

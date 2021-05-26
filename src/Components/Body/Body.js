@@ -3,7 +3,7 @@ import SubjectSection from '../Subject Section/SubjectSection'
 import header1 from '../../assets/header1.png'
 import {toggleAuditory, toggleEnglishTeacher, toggleKinesthetic, toggleMathsTeacher, toggleMusicTeacher, toggleReflective, toggleScienceTeacher, toggleVisual} from '../../actions/index.js'
 import './Body.css'
-import visualIcon from '../../assets/eyeVisual.svg'
+import bookLogo from '../../assets/Book.svg'
 import reflectiveIcon from '../../assets/reflectiveIcon.svg'
 import touchIcon from '../../assets/touchIcon.svg'
 import headsetIcon from '../../assets/headsetIcon.svg'
@@ -14,6 +14,7 @@ import scienceLogo from '../../assets/teachersSubjectLogos/scienceLogo.svg'
 import musicLogo from '../../assets/teachersSubjectLogos/musicLogo.png'
 
 import { useDispatch, useSelector } from 'react-redux'
+import { useHistory } from 'react-router'
 
 function Body({home, social, teachers, aboutUs}) {
     // There constants control the category state of the app, updates which category is selected currently
@@ -28,6 +29,7 @@ function Body({home, social, teachers, aboutUs}) {
     const selectedTabMusic= useSelector(state => state.selectedTabMusic)
    
     const dispatch= useDispatch();
+    const history= useHistory()
 
     // this function is fired when clicked on the categories button, this function basically checks which button was clicked, updates the state of the app accordingly
     const toggleSelected=(id)=>{
@@ -137,6 +139,10 @@ function Body({home, social, teachers, aboutUs}) {
                 <div onClick={()=>toggleSelectedTeachers("music")} id="music" className={`reflective__button ${selectedTabMusic ? "tab__button__selected":"tab__button"} pointer`}>
                 <img className="tabsIcon" src={musicLogo} />   MUSIC
                 </div>
+
+                <div onClick={()=>history.push('/')} id="music"  style={{paddingRight:'10px'}} className={`reflective__button ${selectedTabMusic ? "tab__button__selected":"tab__button"} pointer`}>
+                <img className="tabsIcon" src={bookLogo} style={{paddingLeft: '10px'}} />   SCHOOL RESOURCES
+                </div>
             </div>
 
                 :
@@ -155,6 +161,10 @@ function Body({home, social, teachers, aboutUs}) {
 
                 <div onClick={()=>toggleSelected("reflective")} id="reflective" className={`reflective__button ${selectedTabReflective ? "tab__button__selected":"tab__button"} pointer`}>
                 <img className="tabsIcon" src={reflectiveIcon} />   REFLECTIVE
+                </div>
+
+                <div onClick={()=>history.push('/teachers')} id="music" style={{paddingRight:'10px'}} className={`reflective__button ${selectedTabMusic ? "tab__button__selected":"tab__button"} pointer`}>
+                <img className="tabsIcon" src={bookLogo} style={{paddingLeft: '5px'}} />  ONE TO ONE TUITION
                 </div>
             </div>
             }
